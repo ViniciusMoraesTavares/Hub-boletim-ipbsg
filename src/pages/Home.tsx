@@ -66,17 +66,38 @@ const Home: React.FC = () => {
               </a>
             </div>
 
-            <div className="hidden md:block relative w-64 h-96 flex-shrink-0">
-              <img
-                src="/src/assets/images/capa_pastoral.png"
-                alt="Capa do boletim"
-                className="object-cover w-full h-full rounded-2xl shadow-2xl"
-                style={{
-                  clipPath: "polygon(0 0, 100% 0, 100% 80%, 0 100%)",
-                }}
-              />
-              <div className="absolute -top-8 -right-8 w-20 h-20 bg-white rounded-full opacity-20 animate-pulse"></div>
-              <div className="absolute -bottom-10 left-10 w-16 h-16 bg-white rounded-full opacity-20 animate-pulse"></div>
+            <div className="hidden md:block relative w-64 h-96 flex-shrink-0 group cursor-pointer">
+              <a href={atual} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
+
+                {/* Imagem do boletim */}
+                <img
+                  src="/src/assets/images/capa_pastoral.png"
+                  alt="Capa do boletim"
+                  className="object-cover w-full h-full rounded-2xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
+                  style={{
+                    clipPath: "polygon(0 0, 100% 0, 100% 80%, 0 100%)",
+                  }}
+                />
+
+                {/* Overlay transparente com mesmo corte */}
+                <div
+                  className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-2xl"
+                  style={{
+                    backgroundColor: "rgba(255, 255, 255, 0.54)",
+                    clipPath: "polygon(0 0, 100% 0, 100% 80%, 0 100%)",
+                  }}
+                >
+                  <span className="text-white-1000 font-bold text-lg text-center px-4">
+                    Clique para <br></br>
+                    abrir Boletim
+                  </span>
+                    <ArrowRight size={24} className="mr-3" />
+                </div>
+
+                {/* Bolinhas decorativas */}
+                <div className="absolute -top-8 -right-8 w-20 h-20 bg-white rounded-full opacity-20 animate-pulse"></div>
+                <div className="absolute -bottom-10 left-10 w-16 h-16 bg-white rounded-full opacity-20 animate-pulse"></div>
+              </a>
             </div>
           </div>
         </div>
