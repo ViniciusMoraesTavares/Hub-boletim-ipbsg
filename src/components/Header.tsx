@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
           <div className="flex items-center space-x-2">
             <div className="flex items-center space-x-2">
               <img
-                src="/src/images/ipbsg_ico (2).png"
+                src="/src/assets/images/ipbsg_ico (2).png"
                 alt="Logo IPB"
                 className="w-12 h-15 object-contain"
               />
