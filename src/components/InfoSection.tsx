@@ -1,5 +1,6 @@
 import React from 'react';
-import { Users, Heart, Church, Instagram } from 'lucide-react';
+import { Users, Heart, Church } from 'lucide-react';
+import { FaInstagram } from 'react-icons/fa';
 
 const InfoSection: React.FC = () => {
   const infoCards = [
@@ -21,10 +22,10 @@ const InfoSection: React.FC = () => {
   ];
 
   const placeholderImages = [
-    'https://images.pexels.com/photos/8468470/pexels-photo-8468470.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/7869083/pexels-photo-7869083.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/8674654/pexels-photo-8674654.jpeg?auto=compress&cs=tinysrgb&w=400'
+    '/src/assets/images/IMG-20241218-WA0123.jpg',
+    '/src/assets/images/TEMPLO - CULTO - LOUVOR 2024 (5).jpg',
+    '/src/assets/images/TEMPLO - CULTO- CEIA 2024 (22).jpg',
+    '/src/assets/images/Un1co 2024 (1).jpg'
   ];
 
   return (
@@ -86,39 +87,38 @@ const InfoSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Widget Instagram */}
-          <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-6">
-              <Instagram className="text-pink-500" size={28} />
-              <h3 className="text-2xl font-bold text-green-800">
-                Siga-nos no Instagram
-              </h3>
+          {/* Instagram Feed Widget */}
+          <div className="bg-white rounded-2xl p-4 shadow-lg">
+            {/* Instagram Profile Embed */}
+            <div className="mb-4">
+              <iframe
+                src="https://www.instagram.com/ipb.sg/embed"
+                className="w-full h-96 border-0 rounded-lg"
+                title="Instagram Profile - @ipb.sg"
+              ></iframe>
             </div>
-            
-            <div className="bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 p-1 rounded-lg inline-block">
-              <div className="bg-white p-8 rounded-lg">
-                <p className="text-gray-600 mb-4">
-                  Widget do Instagram será incorporado aqui
-                </p>
-                <a
-                  href="https://www.instagram.com/ipb.sg/?hl=pt-br"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 bg-gradient-to-r from-pink-500 to-orange-400 text-white px-6 py-3 rounded-lg font-medium hover:shadow-lg transition-all duration-200 transform hover:scale-105"
-                >
-                  <Instagram size={20} />
-                  <span>@ipb.sg</span>
-                </a>
-              </div>
+
+            <div className="text-center">
+              <p className="text-sm text-gray-600 mb-3">
+                Siga @ipb.sg no Instagram
+              </p>
             </div>
-            
-            <p className="text-sm text-gray-500 mt-4">
-              Acompanhe nossos cultos, eventos e momentos de comunhão
-            </p>
+          </div>
+
+          <div className="text-center mt-4">
+            <a
+              href="https://www.instagram.com/ipb.sg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-pink-600 hover:text-pink-700 font-medium transition-colors"
+            >
+              <FaInstagram className="h-5 w-5 mr-2" />
+              Seguir no Instagram
+            </a>
           </div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 
