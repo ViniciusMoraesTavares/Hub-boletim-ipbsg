@@ -2,7 +2,6 @@ import React from "react";
 import { FileText, ArrowRight } from "lucide-react";
 
 // PDFs
-
 import anterior1 from "/pdf/664 - Frustração ou fé - Boletim virtual.pdf";
 import anterior2 from "/pdf/665 - Os propósitos de Deus nas pragas do Egito - Boletim virtual.pdf";
 import anterior3 from "/pdf/666 - ENCONTRO DE CASAIS COM CRISTO - Boletim virtual.pdf";
