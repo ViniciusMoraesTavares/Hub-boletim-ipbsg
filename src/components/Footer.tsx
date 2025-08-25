@@ -20,11 +20,11 @@ const Footer: React.FC = () => {
 
 
   const scheduleInfo = [
-    { day: 'Domingo', time: '09h00 - Escola Dominical' },
-    { day: 'Domingo', time: '18h00 - Culto Vespertino' },
-    { day: 'Segunda', time: '19h30 - Reunião nos Lares' },
-    { day: 'Quarta', time: '19h30 - Estudo Bíblico' },
+    { day: 'Domingo', times: ['09h00 - Escola Dominical', '18h00 - Culto Vespertino'] },
+    { day: 'Segunda', times: ['19h30 - Reunião nos Lares'] },
+    { day: 'Quarta', times: ['19h30 - Estudo Bíblico'] },
   ];
+
 
   return (
     <footer id="contato" className="bg-green-800 text-white">
@@ -100,7 +100,9 @@ const Footer: React.FC = () => {
                 <div key={index} className="text-green-200 text-sm">
                   <span className="font-medium text-white">{schedule.day}:</span>
                   <br />
-                  <span>{schedule.time}</span>
+                  {schedule.times.map((time, i) => (
+                    <div key={i}>{time}</div>
+                  ))}
                 </div>
               ))}
             </div>
