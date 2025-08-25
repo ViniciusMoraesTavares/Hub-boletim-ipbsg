@@ -7,17 +7,17 @@ const InfoSection: React.FC = () => {
     {
       icon: Church,
       title: 'Nossa História',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+      description: 'Nossa igreja foi organizada em 1989 e, desde então, tem caminhado firmada na Palavra de Deus. Ao longo dos anos, temos buscado proclamar o Evangelho de Cristo e servir nossa cidade com fidelidade.'
     },
     {
       icon: Users,
       title: 'Nossa Comunidade',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+      description: 'Somos uma igreja bíblica, reformada e acolhedora. Vivemos para a glória de Deus e cremos que o verdadeiro sentido da vida está no Deus Criador, que fez todas as coisas com propósito. Caminhamos lado a lado, sofrendo e nos alegrando juntos, fortalecidos por Cristo Jesus.'
     },
     {
       icon: Heart,
       title: 'Nossa Missão',
-      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+      description: 'Nossa missão é glorificar a Deus em tudo o que fazemos, anunciar com clareza o Evangelho de Jesus Cristo e discipular pessoas para uma vida de fé, serviço e amor. Queremos ser uma igreja que proclama a verdade, acolhe em amor e serve com compaixão.'
     }
   ];
 
@@ -37,7 +37,7 @@ const InfoSection: React.FC = () => {
             Conheça Nossa Igreja
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-12">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Uma igreja reformada, bíblica e acolhedora, servindo a Cristo e à cidade desde 1989.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const InfoSection: React.FC = () => {
             <div className="mb-4">
               <iframe
                 src="https://www.instagram.com/ipb.sg/embed"
-                className="w-full h-96 border-0 rounded-lg"
+                className="w-full h-auto min-h-[600px] border-0 rounded-lg"
                 title="Instagram Profile - @ipb.sg"
               ></iframe>
             </div>
@@ -105,6 +105,7 @@ const InfoSection: React.FC = () => {
             </div>
           </div>
 
+        </div>
           <div className="text-center mt-4">
             <a
               href="https://www.instagram.com/ipb.sg/"
@@ -116,7 +117,6 @@ const InfoSection: React.FC = () => {
               Seguir no Instagram
             </a>
           </div>
-        </div>
       </div >
     </section >
   );
