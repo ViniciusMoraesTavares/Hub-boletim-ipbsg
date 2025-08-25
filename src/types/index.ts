@@ -1,10 +1,9 @@
-// Interfaces e tipos para o projeto IPB
-
 export interface QuizQuestion {
   id: number;
   question: string;
   options: string[];
   correctAnswer: number;
+  explanation?: string;
 }
 
 export interface QuizState {
