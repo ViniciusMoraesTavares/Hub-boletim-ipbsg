@@ -15,9 +15,8 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-white">
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 
-      {/* Hero Principal + Destaque do Boletim */}
+      {/* Hero Principal */}
       <section id="home" className="relative bg-gradient-to-br from-green-800 via-green-700 to-green-600 pt-24 md:pt-32">
-        {/* Conteúdo centralizado */}
         <div className="container mx-auto px-4 py-16 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 animate-fadeIn">
@@ -46,7 +45,7 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        {/* Hero do Boletim como card flutuante */}
+        {/* Hero do Boletim */}
         <div className="container mx-auto px-4 py-12 relative z-10">
           <div className="bg-white/5 backdrop-blur-sm rounded-3xl shadow-xl p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white md:max-w-lg">
@@ -79,7 +78,6 @@ const Home: React.FC = () => {
                   }}
                 />
 
-                {/* Overlay transparente com mesmo corte */}
                 <div
                   className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-2xl"
                   style={{
@@ -93,16 +91,12 @@ const Home: React.FC = () => {
                   </span>
                     <ArrowRight size={24} className="mr-3" />
                 </div>
-
-                {/* Bolinhas decorativas */}
                 <div className="absolute -top-8 -right-8 w-20 h-20 bg-white rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-10 left-10 w-16 h-16 bg-white rounded-full opacity-20 animate-pulse"></div>
               </a>
             </div>
           </div>
         </div>
-
-        {/* Onda de transição suave para a próxima seção */}
         <svg
           className="absolute bottom-0 left-0 w-full"
           viewBox="0 0 1440 150"
@@ -111,10 +105,9 @@ const Home: React.FC = () => {
         >
           <path
             d="M0,0 C480,100 960,0 1440,100 L1440,150 L0,150 Z"
-            fill="#f0fdf4" // mesma cor do bg-gray-50
+            fill="#f0fdf4"
           />
         </svg>
-
       </section>
 
       <BulletinSection />

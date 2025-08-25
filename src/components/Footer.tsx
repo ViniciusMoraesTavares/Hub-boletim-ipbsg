@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaPhone, FaInstagram } from 'react-icons/fa';
-import { FiMessageCircle, FiMapPin, FiClock } from 'react-icons/fi';
+import { FaPhone, FaInstagram, FaWhatsapp  } from 'react-icons/fa';
+import { FiMapPin, FiClock } from 'react-icons/fi';
 
 const Footer: React.FC = () => {
   const contactInfo = [
     {
-      icon: FiMessageCircle,
+      icon: FaWhatsapp,
       label: 'WhatsApp',
       value: '(19) 3545-5024',
       link: 'https://wa.me/551935455024'
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-green-200 text-sm leading-relaxed">
-              Uma igreja reformada, evangélica e missionária, fundamentada na Palavra de Deus e comprometida com a Sua glória.
+              Uma igreja reformada, bíblica e acolhedora, servindo a Cristo e à cidade desde 1989.
             </p>
           </div>
 

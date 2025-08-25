@@ -1,13 +1,14 @@
 import React from 'react';
-import { Menu, X, Home, BookOpen, HelpCircle, Phone } from 'lucide-react';
 import { HeaderProps } from '../types';
+import { Menu, X } from 'lucide-react';
+import { FaHome, FaFileAlt, FaRegLightbulb, FaWhatsapp } from 'react-icons/fa';
 
 const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const menuItems = [
-    { name: 'Home', icon: Home, href: '#home' },
-    { name: 'Boletim', icon: BookOpen, href: '#boletim' },
-    { name: 'Quiz', icon: HelpCircle, href: '#quiz' },
-    { name: 'Contato', icon: Phone, href: '#contato' },
+    { name: 'Home', icon: FaHome, href: '#home' },
+    { name: 'Boletim', icon: FaFileAlt, href: '#boletim' },
+    { name: 'Quiz', icon: FaRegLightbulb, href: '#quiz' },
+    { name: 'Contato', icon: FaWhatsapp, href: '#contato' },
   ];
 
   const handleMenuClick = (href: string) => {
