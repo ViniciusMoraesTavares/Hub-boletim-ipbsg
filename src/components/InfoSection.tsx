@@ -22,10 +22,10 @@ const InfoSection: React.FC = () => {
   ];
 
   const placeholderImages = [
-    '/public/images/IMG-20241218-WA0123.jpg',
-    '/public/images/TEMPLO - CULTO - LOUVOR 2024 (5).jpg',
-    '/public/images/TEMPLO - CULTO- CEIA 2024 (22).jpg',
-    '/public/images/Un1co 2024 (1).jpg'
+    '/images/IMG-20241218-WA0123.jpg',
+    '/images/TEMPLO - CULTO - LOUVOR 2024 (5).jpg',
+    '/images/TEMPLO - CULTO- CEIA 2024 (22).jpg',
+    '/images/Un1co 2024 (1).jpg'
   ];
 
   return (
