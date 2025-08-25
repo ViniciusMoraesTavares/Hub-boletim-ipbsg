@@ -69,13 +69,15 @@ const SocietySlider: React.FC = () => {
                 </p>
 
                 {/* Card do slide */}
-                <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 shadow-lg flex flex-col lg:flex-row items-center lg:items-start gap-8">
+                <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 shadow-lg flex flex-col lg:flex-row gap-8">
                     {/* Logo à esquerda */}
-                    <div className="flex-shrink-0 flex justify-center lg:justify-start w-full lg:w-1/3">
+                    <div className="flex-shrink-0 flex justify-center lg:justify-center lg:self-center w-full lg:w-1/3">
                         <img
                             src={society.logo}
                             alt={society.name}
-                            className="w-40 h-40 object-contain transition-transform duration-300 hover:scale-105"
+                            title={society.instagram ? "Abrir no Instagram" : ""}
+                            className="w-64 h-64 lg:w-72 lg:h-72 object-cover rounded-2xl shadow-md transition-transform duration-300 hover:scale-105 cursor-pointer"
+                            onClick={() => society.instagram && window.open(society.instagram, "_blank")}
                         />
                     </div>
 
