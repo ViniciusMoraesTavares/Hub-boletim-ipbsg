@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import BulletinSection from '../components/BulletinSection';
 import InfoSection from '../components/InfoSection';
+import SocietySlider from '../components/SocietySlider';
 import QuizSection from '../components/QuizSection';
 import Footer from '../components/Footer';
 import { quizQuestions } from '../data/quizQuestions';
@@ -112,6 +113,7 @@ const Home: React.FC = () => {
 
       <BulletinSection />
       <InfoSection />
+      <SocietySlider />
       <QuizSection questions={quizQuestions} />
       <Footer />
     </div>
