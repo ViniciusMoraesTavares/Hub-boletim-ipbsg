@@ -1,12 +1,13 @@
 import React from 'react';
 import { HeaderProps } from '../types';
 import { Menu, X } from 'lucide-react';
-import { FaHome, FaFileAlt, FaRegLightbulb, FaWhatsapp } from 'react-icons/fa';
+import { FaChurch, FaBible, FaUserFriends, FaRegLightbulb, FaWhatsapp } from 'react-icons/fa';
 
 const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const menuItems = [
-    { name: 'Home', icon: FaHome, href: '#home' },
-    { name: 'Boletim', icon: FaFileAlt, href: '#boletim' },
+    { name: 'Pastoral', icon: FaBible, href: '#boletim' },
+    { name: 'Sobre', icon: FaChurch, href: '#info' },
+    { name: 'Sociedades', icon: FaUserFriends, href: '#sociedades' },
     { name: 'Quiz', icon: FaRegLightbulb, href: '#quiz' },
     { name: 'Contato', icon: FaWhatsapp, href: '#contato' },
   ];
@@ -22,21 +23,27 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2">
-              <img
-                src="/images/ipbsg_ico.png"
-                alt="Logo IPB"
-                className="w-12 h-15 object-contain"
-              />
-            </div>
+          <a
+            href="#home"
+            onClick={(e) => {
+              e.preventDefault();
+              const element = document.querySelector('#home');
+              element?.scrollIntoView({ behavior: 'smooth' });
+            }}
+            className="flex items-center space-x-2 cursor-pointer"
+          >
+            <img
+              src="/images/ipbsg_ico.png"
+              alt="Logo IPB"
+              className="w-12 h-15 object-contain"
+            />
             <span className="text-green-800 font-bold text-xl hidden sm:block">
-              Igreja Presbiteriana de Santa Gertrudes
+              IPB de Santa Gertrudes
             </span>
             <span className="text-green-800 font-bold text-lg sm:hidden">
               IPB.SG
             </span>
-          </div>
+          </a>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8">
