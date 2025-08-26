@@ -32,17 +32,18 @@ const quizReducer = (state: QuizState, action: QuizAction): QuizState => {
 };
 
 const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
-  const QUIZ_VERSION = '25-08-2025';
+  const QUIZ_VERSION = 'v5';
   const quizKey = `quiz_${QUIZ_VERSION}`;
 
   const savedState = localStorage.getItem(quizKey);
-  const initialState: QuizState = savedState
+  const parsedState: QuizState = savedState
     ? JSON.parse(savedState)
     : { currentQuestion: 0, answers: [], score: 0, isCompleted: false };
 
-  const [quizState, dispatch] = useReducer(quizReducer, initialState);
+  const initialMode: 'estudo' | 'teste' | null = null;
+  const [quizState, dispatch] = useReducer(quizReducer, parsedState);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
-  const [mode, setMode] = useState<'estudo' | 'teste' | null>(null);
+  const [mode, setMode] = useState<'estudo' | 'teste' | null>(initialMode);
   const [showFeedback, setShowFeedback] = useState(false);
 
   useEffect(() => {
@@ -62,7 +63,7 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
     if (selectedAnswer === null) return;
     dispatch({ type: 'ANSWER_QUESTION', answer: selectedAnswer });
     if (mode === 'estudo') setShowFeedback(true);
-    else handleNextQuestion(); // no modo teste já avança
+    else handleNextQuestion();
   };
 
   const handleNextQuestion = () => {
@@ -72,6 +73,10 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
       setShowFeedback(false);
     } else {
       dispatch({ type: 'COMPLETE_QUIZ', questions });
+
+      const countKey = `quiz_count_${QUIZ_VERSION}`;
+      const currentCount = Number(localStorage.getItem(countKey) || 0);
+      localStorage.setItem(countKey, String(currentCount + 1));
     }
   };
 
@@ -92,14 +97,21 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
           <h2 className="text-3xl font-bold text-green-800 mb-6">Escolha o modo do Quiz</h2>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button
-              onClick={() => setMode('estudo')}
+              onClick={() => {
+                if (quizState.isCompleted) handleReset();
+                setMode('estudo');
+              }}
               className="px-6 py-4 bg-green-800 text-white rounded-lg shadow hover:bg-green-700 transition"
             >
               📝 Modo Estudo <br />
               <span className="text-sm text-green-100">feedback imediato</span>
             </button>
+
             <button
-              onClick={() => setMode('teste')}
+              onClick={() => {
+                if (quizState.isCompleted) handleReset();
+                setMode('teste');
+              }}
               className="px-6 py-4 bg-blue-800 text-white rounded-lg shadow hover:bg-blue-700 transition"
             >
               🎯 Modo Teste <br />
@@ -113,6 +125,9 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
 
   // ---- Resultado final ----
   if (quizState.isCompleted) {
+    const countKey = `quiz_count_${QUIZ_VERSION}`;
+    const timesTaken = Number(localStorage.getItem(countKey) || 0);
+
     return (
       <section id="quiz" className="py-16 bg-green-50">
         <div className="container mx-auto px-4">
@@ -153,6 +168,9 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
                   })}
                 </div>
               )}
+              <p className="text-gray-500 mb-4">
+                Você fez este quiz <strong>{timesTaken}</strong> {timesTaken === 1 ? 'vez' : 'vezes'}.
+              </p>
               <button
                 onClick={handleReset}
                 className="mt-4 px-6 py-3 bg-green-800 text-white rounded-lg hover:bg-green-700 transition"
@@ -290,7 +308,7 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
 
               {mode === 'teste' && (
                 <button
-                  onClick={handleConfirmAnswer} 
+                  onClick={handleConfirmAnswer}
                   disabled={selectedAnswer === null}
                   className={`w-full py-3 px-6 rounded-lg font-medium transition-all duration-200 ${selectedAnswer !== null
                     ? 'bg-green-800 hover:bg-green-700 text-white transform hover:scale-[1.02]'
