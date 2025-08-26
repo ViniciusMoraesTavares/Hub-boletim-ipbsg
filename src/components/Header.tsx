@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
             className="flex items-center space-x-2 cursor-pointer"
           >
             <img
-              src="/images/ipbsg_ico.png"
+              src="/images/ipbsg_ico_convert.webp"
               alt="Logo IPB"
               className="w-12 h-15 object-contain"
             />

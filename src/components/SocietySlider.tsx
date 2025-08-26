@@ -12,7 +12,7 @@ interface Society {
 const societies: Society[] = [
     {
         name: 'União da Crianças Presbiterianas',
-        logo: '/images/ucp_logo.png',
+        logo: '/images/ucp_logo_convert.webp',
         description: [
             `A UCP da IPB.SG dedica-se ao ensino bíblico das crianças, proporcionando momentos de aprendizado, adoração e convivência cristã desde cedo. As atividades são planejadas para estimular a fé, a criatividade e a amizade, com músicas, brincadeiras e desafios que fortalecem o amor a Deus e ao próximo.`,
             `Nosso foco é desenvolver líderes servos para a igreja e a sociedade, formando crianças com caráter cristão e uma compreensão sólida da Palavra de Deus. A UCP busca que cada criança se sinta parte da comunidade da igreja, aprendendo a viver com integridade e compaixão.`
@@ -22,7 +22,7 @@ const societies: Society[] = [
     },
     {
         name: 'União Presbiteriana de Adolescentes',
-        logo: '/images/upa_logo.png',
+        logo: '/images/upa_logo_convert.webp',
         description: [
             `A UPA da IPB.SG é dedicada a adolescentes que desejam crescer espiritualmente e desenvolver amizade e comunhão dentro da igreja. As atividades incentivam estudo bíblico, oração, participação em projetos e eventos que fortalecem a fé dos jovens.`,
             `A sociedade promove liderança jovem, senso de responsabilidade e engajamento em ações de serviço à igreja e à comunidade. A UPA visa preparar os adolescentes para viverem de forma íntegra e ativa na vida cristã, cultivando princípios bíblicos em todas as áreas de suas vidas.`
@@ -32,7 +32,7 @@ const societies: Society[] = [
     },
     {
         name: 'União de Mocidade Presbiteriana',
-        logo: '/images/ump_logo.png',
+        logo: '/images/ump_logo_convert.webp',
         description: [
             `A UMP da IPB.SG reúne jovens adultos que desejam crescer em fé, caráter e liderança dentro da igreja. A sociedade oferece estudos bíblicos, reuniões, projetos sociais e eventos que incentivam a maturidade espiritual e a comunhão entre os membros.`,
             `O objetivo da UMP é formar jovens líderes comprometidos com o serviço de Deus e com a edificação da igreja. Os participantes são incentivados a aplicar a Palavra de Deus no dia a dia, desenvolver relacionamentos saudáveis e atuar em ministérios e projetos da congregação.`
@@ -42,7 +42,7 @@ const societies: Society[] = [
     },
     {
         name: 'Sociedade Auxiliadora Feminina',
-        logo: '/images/saf_logo.png',
+        logo: '/images/saf_logo_convert.webp',
         description: [
             `A SAF da IPB.SG é voltada para mulheres que desejam servir, estudar a Bíblia e fortalecer a comunhão dentro da igreja. A sociedade promove encontros, estudos e projetos que estimulam o crescimento espiritual, a amizade e a participação ativa na vida congregacional.`,
             `Além disso, a SAF desenvolve ações de serviço à comunidade, incentivando as mulheres a exercerem seu papel cristão em diferentes contextos. O objetivo é criar um espaço de apoio, aprendizado e fortalecimento da fé, preparando líderes femininas para servir com amor e dedicação.`
@@ -99,7 +99,7 @@ const SocietySlider: React.FC = () => {
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700 transition-colors"
                                 >
-                                    <FaInstagram className="mr-2" /> Seguir no Instagram
+                                    <FaInstagram className="mr-2" />Instagram
                                 </a>
                             </div>
                         )}

@@ -71,7 +71,7 @@ const Home: React.FC = () => {
 
                 {/* Imagem do boletim */}
                 <img
-                  src="/images/capa_pastoral.png"
+                  src="/images/capa_pastoral.webp"
                   alt="Capa do boletim"
                   className="object-cover w-full h-full rounded-2xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
                   style={{
