@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { FaInstagram } from 'react-icons/fa';
 
 interface Society {
@@ -51,12 +51,33 @@ const societies: Society[] = [
     }
 ];
 
-
 const SocietySlider: React.FC = () => {
+    useEffect(() => {
+        societies.forEach(s => {
+            const img = new Image();
+            img.src = s.logo;
+        });
+    }, []);
+    
     const [current, setCurrent] = useState(0);
+    const cardRef = useRef<HTMLDivElement>(null);
 
-    const nextSlide = () => setCurrent((prev) => (prev + 1) % societies.length);
-    const prevSlide = () => setCurrent((prev) => (prev - 1 + societies.length) % societies.length);
+    const scrollToTop = () => {
+        if (cardRef.current) {
+            const top = cardRef.current.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({ top: top - 140, behavior: 'smooth' });
+        }
+    };
+
+    const nextSlide = () => {
+        setCurrent((prev) => (prev + 1) % societies.length);
+        scrollToTop();
+    }
+
+    const prevSlide = () => {
+        setCurrent((prev) => (prev - 1 + societies.length) % societies.length);
+        scrollToTop();
+    }
 
     const society = societies[current];
 
@@ -69,7 +90,10 @@ const SocietySlider: React.FC = () => {
                 </p>
 
                 {/* Card do slide */}
-                <div className="max-w-5xl mx-auto bg-white rounded-2xl p-8 shadow-lg flex flex-col lg:flex-row gap-8">
+                <div
+                    ref={cardRef}
+                    className="max-w-5xl mx-auto bg-white rounded-2xl p-8 shadow-lg flex flex-col lg:flex-row gap-8"
+                >
                     {/* Logo à esquerda */}
                     <div className="flex-shrink-0 flex justify-center lg:justify-center lg:self-center w-full lg:w-1/3">
                         <img
@@ -82,17 +106,17 @@ const SocietySlider: React.FC = () => {
                     </div>
 
                     {/* Informações à direita */}
-                    <div className="flex flex-col w-full lg:w-2/3 text-center lg:text-left">
+                    <div className="flex flex-col w-full lg:w-2/3 text-left">
                         <h3 className="text-2xl font-bold text-green-800 mb-4">{society.name}</h3>
                         <div className="text-gray-700 mb-6">
                             {society.description.map((para, idx) => (
-                                <p key={idx} className="mb-4">{para}</p>
+                                <p key={idx} className="mb-4 text-left">{para}</p>
                             ))}
                         </div>
-                        <p className="text-gray-700 mb-6"><strong>Missão:</strong> {society.misson}</p>
+                        <p className="text-gray-700 mb-6 text-left"><strong>Missão:</strong> {society.misson}</p>
 
                         {society.instagram && (
-                            <div className="flex justify-center lg:justify-start">
+                            <div className="flex justify-start">
                                 <a
                                     href={society.instagram}
                                     target="_blank"

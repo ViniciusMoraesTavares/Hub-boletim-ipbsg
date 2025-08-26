@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               IPB de Santa Gertrudes
             </span>
             <span className="text-green-800 font-bold text-lg sm:hidden">
-              IPB.SG
+              IPB de Santa Gertrudes
             </span>
           </a>
 
