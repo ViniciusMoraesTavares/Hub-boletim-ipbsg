@@ -45,6 +45,14 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
+        <div className="mt-4 flex flex-col items-center space-y-1 animate-fadeIn">
+          <span className="text-green-100 font-medium text-sm text-center">
+            Ver Boletim da semana
+          </span>
+          <div className="flex flex-col items-center animate-bounce">
+            <span className="text-green-100 text-lg">⌄</span>
+          </div>
+        </div>
 
         {/* Hero do Boletim */}
         <div className="container mx-auto px-4 py-12 relative z-10">
@@ -53,7 +61,7 @@ const Home: React.FC = () => {
               <h2 className="text-4xl md:text-5xl font-bold mb-4">Boletim da Semana</h2>
               <p className="text-lg md:text-xl mb-6">Propostas Indecentes - 24/08/2025</p>
               <p className="mb-6 text-white/90">
-                Acesse o boletim completo com a pastoral, avisos e programações da semana. Leia, medite e compartilhe com nossa comunidade.
+                Veja o boletim completo com a pastoral, avisos e programação semanal. Participe da vida da igreja e acompanhe tudo que acontece na nossa comunidade.
               </p>
               <a
                 href={atual}
@@ -90,7 +98,7 @@ const Home: React.FC = () => {
                     Clique para <br></br>
                     abrir Boletim
                   </span>
-                    <ArrowRight size={24} className="mr-3" />
+                  <ArrowRight size={24} className="mr-3" />
                 </div>
                 <div className="absolute -top-8 -right-8 w-20 h-20 bg-white rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-10 left-10 w-16 h-16 bg-white rounded-full opacity-20 animate-pulse"></div>
