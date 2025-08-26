@@ -1,5 +1,6 @@
 import React from "react";
 import { FileText, ArrowRight } from "lucide-react";
+import { FaCloudUploadAlt } from "react-icons/fa";
 
 // PDFs
 import anterior1 from "/pdf/664 - Frustração ou fé - Boletim virtual.pdf";
@@ -69,8 +70,27 @@ const BulletinSection: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
 
+          {/* Todos os Boletins Digitais */}
+          <div className="mt-12 max-w-4xl mx-auto bg-green-50 rounded-3xl shadow-md p-10 text-center">
+            <h3 className="text-2xl font-bold text-green-900 mb-3">Todos os Boletins Digitais</h3>
+            <p className="text-green-800 mb-6">
+              Quer revisitar as mensagens das pastorais anteriores? <br />
+              Todos os boletins digitais estão organizados no Drive para você acessar a qualquer momento <br />
+              e conferir todo o conteúdo dos boletins anteriores.
+            </p>
+            <a
+              href="https://drive.google.com/drive/folders/1vgZMeqAMgOh8gdf_1yVfn--7Y-XlmN1J?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-green-700 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-xl shadow transition-colors duration-200"
+            >
+              <FaCloudUploadAlt size={20} className="mr-2" />
+              Acessar Drive – Boletins Digitais
+            </a>
+          </div>
+
+        </div>
       </div>
     </section>
   );
