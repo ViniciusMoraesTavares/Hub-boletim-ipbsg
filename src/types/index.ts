@@ -4,6 +4,7 @@ export interface QuizQuestion {
   options: string[];
   correctAnswer: number;
   explanation?: string;
+  difficulty: Difficulty;
 }
 
 export interface QuizState {
@@ -27,3 +28,5 @@ export interface SocialLink {
   url: string;
   icon: string;
 }
+
+export type Difficulty = 'easy' | 'medium' | 'hard';

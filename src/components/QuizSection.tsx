@@ -32,7 +32,7 @@ const quizReducer = (state: QuizState, action: QuizAction): QuizState => {
 };
 
 const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
-  const QUIZ_VERSION = 'v5';
+  const QUIZ_VERSION = '31-08-2025';
   const quizKey = `quiz_${QUIZ_VERSION}`;
 
   const savedState = localStorage.getItem(quizKey);
@@ -219,6 +219,22 @@ const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
               <h3 className="text-xl font-bold text-green-800 mb-8 text-center">
                 {currentQuestion.question}
               </h3>
+              <div className="text-center mb-6">
+                <span
+                  className={`px-3 py-1 rounded-full text-sm font-semibold ${currentQuestion.difficulty === 'easy'
+                      ? 'bg-green-100 text-green-700'
+                      : currentQuestion.difficulty === 'medium'
+                        ? 'bg-blue-100 text-blue-700'
+                        : 'bg-red-100 text-red-700'
+                    }`}
+                >
+                  {currentQuestion.difficulty === 'easy'
+                    ? 'Fácil'
+                    : currentQuestion.difficulty === 'medium'
+                      ? 'Média'
+                      : 'Difícil'}
+                </span>
+              </div>
 
               <div className="space-y-4 mb-8">
                 {currentQuestion.options.map((option, index) => {

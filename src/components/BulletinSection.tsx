@@ -20,15 +20,15 @@ const BulletinSection: React.FC = () => {
 
         {/* Pastoral da Semana */}
         <div className="max-w-4xl mx-auto mb-16 bg-green-50 rounded-3xl shadow-md p-10">
-          <h2 className="text-3xl font-bold text-green-900 mb-2 text-center">Pastoral: Propostas Indecentes</h2>
-          <p className="text-green-800 italic font-medium mb-6 text-center">Rev. Hernandes Dias Lopes</p>
+          <h2 className="text-3xl font-bold text-green-900 mb-2 text-center">Pastoral: Cristo e a páscoa (Êxodo 12.1-28)</h2>
+          <p className="text-green-800 italic font-medium mb-6 text-center">Rev. Júlio Alexandre Werner Frossard</p>
           <div className="text-green-900 text-justify leading-relaxed space-y-4">
             <p className="text-green-900 text-sm md:text-base text-justify leading-relaxed">
-              Quando o povo de Israel estava para sair do Egito, Faraó fez quatro propostas a Moisés para reter o povo no cativeiro. Essas propostas eram indecentes. <br /><br />
-              Em primeiro lugar, não vá, fique (Ex 8.25). A escravidão é um símbolo do pecado, Faraó é um símbolo de Satanás e o Egito é um símbolo do mundo. Faraó propôs a Moisés a continuar no Egito e a levantar ali mesmo altares a Deus. <br /><br />
-              Em segundo lugar, vá, mas não vá longe (Ex 8.28). Faraó agora propõe o povo ir, mas não ir tão longe. Faraó que até então castigava o povo com duros açoites e com trabalhos forçados, agora se transforma em chefe de relações públicas. Quer relacionamento. Abre as portas de seu império para o povo voltar sempre que sentir saudade. <br /><br />
-              Em terceiro lugar, Faraó propõe a Moisés levar o povo, mas deixar no Egito as crianças e os jovens (Ex 10.10,11). Com isso, está insinuando que o lugar para os jovens desfrutarem a vida é no Egito. Que levantar altares a Deus é uma atividade para aqueles que já dobraram o cabo da boa esperança e já se aproximam do cabo das tormentas. <br /><br /> Em quarto lugar, vá, mas deixe a grana (Ex 10.24,26). Sugeriu que Moisés fosse embora, mas deixasse para trás o rebanho. Os israelitas serviriam a Deus, mas seus rebanhos ficariam no Egito. A reposta de Moisés é corajosa e emblemática. Disse a Faraó que nem uma unha ficaria no Egito (Ex 10.26). Muitos querem adorar a Deus, deixando seus bens no Egito. Querem servir a Deus sem consagrar a ele seus bens. <br /><br />
-              Cuidado com as propostas de Faraó, elas são indecentes e muito perigosas.
+              O juízo final e a redenção do povo de Deus tem em seu meio a instituição e celebração da Páscoa e da Festa dos Pães Asmos, substituída pela Santa Ceia,  que pode ser destacada em três partes: <br /><br />
+              A primeira dos versos 1-14 retrata acerca de um cordeiro, macho, sem defeito, que seria tomado por inteiro, cujos ossos não seriam quebrados (v.46). O sangue derramado deste cordeiro seria usado para marcar as casas daqueles que participavam do corpo do animal a fim de serem salvos do juízo que viria sobre aquela terra. <br /><br />
+              A segunda dos versos 15-20 retrata acerca dos pães, comidos por uma semana, onde haveria dois ajuntamentos públicos no primeiro e no último dia e a principal marca desta festividade era a exclusão de todo o fermento e coisas levedadas. <br /><br />
+              Finalmente   dos versos 24-28 o aspecto memorial e pedagógico do rito na instrução dos pais aos filhos ensinando-os o significado da Páscoa e da libertação que eles tiveram pelo sangue do cordeiro e o juízo que veio sobre o Egito.  <br /><br />
+              Todo o rito da Páscoa se cumpre em Cristo, e por sua instituição,  celebramos a Santa Ceia onde Jesus, o Cordeiro perfeito de Deus (Jo 1.29), foi crucificado como sacrifício vivo, sem que nenhum de seus ossos fossem quebrados; cujo corpo tomamos e por seu sangue derramado somos salvos. Diante do Cordeiro devemos nos apresentar a Deus, santos e irrepreensíveis, como uma nação santa, purificados pelo Cordeiro e dispostos a afastar de nós e do nosso meio todo pecado e a fermentação  que ele produz (Ef.1.4-7; 1Co.5.6-8). Tendo nossos filhos como parte desta aliança, ensinando-os acerca da redenção. <br /><br />
             </p>
           </div>
         </div>
