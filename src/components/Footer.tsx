@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
               © {new Date().getFullYear()} Igreja Presbiteriana de Santa Gertrudes
             </p>
             <p className="text-green-300 text-xs mt-1">
-              Desenvolvido com ♥ para a glória de Deus
+              Desenvolvido para a glória de Deus
             </p>
           </div>
         </div>
