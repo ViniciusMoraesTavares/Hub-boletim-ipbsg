@@ -7,7 +7,7 @@ import QuizSection from '../components/QuizSection';
 import Footer from '../components/Footer';
 import { quizQuestions } from '../data/quizQuestions';
 import { ArrowRight } from "lucide-react";
-import atual from "/pdf/667 - Propostas Indecentes - Boletim virtual.pdf";
+import atual from "/pdf/668-Cristo-e-a-pascoa-Boletim-virtual.pdf";
 
 const Home: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
           <div className="bg-white/5 backdrop-blur-sm rounded-3xl shadow-xl p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white md:max-w-lg">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">Boletim da Semana</h2>
-              <p className="text-lg md:text-xl mb-6">Propostas Indecentes - 24/08/2025</p>
+              <p className="text-lg md:text-xl mb-6">Cristo e a Páscoa - 31/08/2025</p>
               <p className="mb-6 text-white/90">
                 Veja o boletim completo com a pastoral, avisos e programação semanal. Participe da vida da igreja e acompanhe tudo que acontece na nossa comunidade.
               </p>

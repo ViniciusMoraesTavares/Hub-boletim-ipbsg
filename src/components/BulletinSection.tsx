@@ -3,15 +3,15 @@ import { FileText, ArrowRight } from "lucide-react";
 import { FaCloudUploadAlt } from "react-icons/fa";
 
 // PDFs
-import anterior1 from "/pdf/664 - Frustração ou fé - Boletim virtual.pdf";
+import anterior1 from "/pdf/667-Propostas-Indecentes-Boletim-virtual.pdf";
 import anterior2 from "/pdf/665 - Os propósitos de Deus nas pragas do Egito - Boletim virtual.pdf";
 import anterior3 from "/pdf/666 - ENCONTRO DE CASAIS COM CRISTO - Boletim virtual.pdf";
 
 const BulletinSection: React.FC = () => {
   const anteriores = [
-    { nome: "666 - ENCONTRO DE CASAIS COM CRISTO", arquivo: anterior3 },
     { nome: "665 - Os propósitos de Deus nas pragas do Egito", arquivo: anterior2 },
-    { nome: "664 - Frustração ou fé", arquivo: anterior1 },
+    { nome: "666 - ENCONTRO DE CASAIS COM CRISTO", arquivo: anterior3 },
+    { nome: "667 - Propostas Indecentes", arquivo: anterior1 },
   ];
 
   return (

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'green-800': '#006400', // Verde IPB
+        'green-800': '#006400',
         'green-700': '#228B22',
         'green-600': '#32CD32',
         'green-50': '#F0FFF0',
