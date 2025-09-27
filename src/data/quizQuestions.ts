@@ -76,7 +76,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: 6,
-    question: "[Nova questão] O cântico de Êxodo 15 antecipa qual tema teológico que será desenvolvido posteriormente na Bíblia?",
+    question: "O cântico de Êxodo 15 antecipa qual tema teológico que será desenvolvido posteriormente na Bíblia?",
     options: [
       "O reinado eterno de Deus",
       "A doutrina da Trindade",
@@ -92,16 +92,16 @@ export const quizQuestions: QuizQuestion[] = [
   // Difíceis
   {
     id: 7,
-    question: "[Nova questão difícil] Qual destes elementos NÃO está presente na estrutura poética do cântico de Êxodo 15?",
+    question: "No cântico de Êxodo 15, qual é o motivo principal pelo qual Israel adora a Deus?",
     options: [
-      "Paralelismo sinônimo",
-      "Imagismo cósmico",
-      "Estrutura quiástica",
-      "Métrica silábica rigorosa",
-      "Invocação divina",
+      "Pelo Seu poder demonstrado na derrota dos inimigos",
+      "Pela sua riqueza material",
+      "Pela quantidade de pessoas que o seguem",
+      "Pela métrica poética do cântico",
+      "Pelo número de vitórias militares de outros povos"
     ],
-    correctAnswer: 3,
-    explanation: "A poesia hebraica não segue métrica silábica fixa como na poesia ocidental.",
-    difficulty: 'hard',
+    correctAnswer: 0,
+    explanation: "O cântico exalta a Deus principalmente pelo Seu poder e a vitória gloriosa sobre os inimigos, conforme descrito nos versículos 11 e 14-16.",
+    difficulty: 'medium',
   },
 ];
