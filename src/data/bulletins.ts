@@ -14,7 +14,7 @@ export const currentBulletin: Bulletin = {
 };
 
 export const previousBulletins: Bulletin[] = [
-  { title: '669 - A Consagração dos primogênitos', date: '', pdf: anterior1, version: '669' },
-  { title: '670 - UMA JORNADA MAIS LONGA', date: '', pdf: anterior2, version: '670' },
-  { title: '671 - DIGA AO POVO QUE MARCHEM', date: '', pdf: anterior3, version: '671' },
+  { title: 'A Consagração dos primogênitos', date: '', pdf: anterior1, version: '669' },
+  { title: 'UMA JORNADA MAIS LONGA', date: '', pdf: anterior2, version: '670' },
+  { title: 'DIGA AO POVO QUE MARCHEM', date: '', pdf: anterior3, version: '671' },
 ];
