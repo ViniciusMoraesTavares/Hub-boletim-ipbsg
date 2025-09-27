@@ -74,34 +74,4 @@ export const quizQuestions: QuizQuestion[] = [
     explanation: "O texto não menciona o descanso de Deus, mas sim Seu poder e juízo.",
     difficulty: 'medium',
   },
-  {
-    id: 6,
-    question: "O cântico de Êxodo 15 antecipa qual tema teológico que será desenvolvido posteriormente na Bíblia?",
-    options: [
-      "O reinado eterno de Deus",
-      "A doutrina da Trindade",
-      "O sacerdócio levítico",
-      "A construção do templo",
-      "A vinda do Messias",
-    ],
-    correctAnswer: 0,
-    explanation: "O verso \"O Senhor reinará para sempre\" (v.18) estabelece este tema crucial.",
-    difficulty: 'medium',
-  },
-
-  // Difíceis
-  {
-    id: 7,
-    question: "No cântico de Êxodo 15, qual é o motivo principal pelo qual Israel adora a Deus?",
-    options: [
-      "Pelo Seu poder demonstrado na derrota dos inimigos",
-      "Pela sua riqueza material",
-      "Pela quantidade de pessoas que o seguem",
-      "Pela métrica poética do cântico",
-      "Pelo número de vitórias militares de outros povos"
-    ],
-    correctAnswer: 0,
-    explanation: "O cântico exalta a Deus principalmente pelo Seu poder e a vitória gloriosa sobre os inimigos, conforme descrito nos versículos 11 e 14-16.",
-    difficulty: 'medium',
-  },
 ];
