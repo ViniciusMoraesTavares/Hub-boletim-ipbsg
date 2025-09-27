@@ -1,22 +1,9 @@
 import { QuizQuestion } from '../types';
 
 export const quizQuestions: QuizQuestion[] = [
+  // Fáceis
   {
     id: 1,
-    question: "Um cântico que se preocupa em falar de Deus, de quem Ele é e o que Ele faz é:",
-    options: [
-      "Antropocêntrico",
-      "Teocêntrico",
-      "Humanista",
-      "Antífona",
-      "Salmo",
-    ],
-    correctAnswer: 1,
-    explanation: "Um cântico teocêntrico tem Deus como foco principal, destacando Seu caráter e ações.",
-    difficulty: 'medium',
-  },
-  {
-    id: 2,
     question: "O Salmo de Êxodo 15 nos dá esperança:",
     options: [
       "Da nossa terra prometida",
@@ -30,7 +17,7 @@ export const quizQuestions: QuizQuestion[] = [
     difficulty: 'easy',
   },
   {
-    id: 3,
+    id: 2,
     question: "Qual evento histórico é retratado no cântico de Êxodo 15?",
     options: [
       "A morte do exército do Egito",
@@ -44,7 +31,37 @@ export const quizQuestions: QuizQuestion[] = [
     difficulty: 'easy',
   },
   {
+    id: 3,
+    question: "No capítulo 15 de Êxodo encontramos:",
+    options: [
+      "Uma parábola",
+      "Uma genealogia",
+      "Uma oração",
+      "Um salmo",
+      "Um sonho realizado",
+    ],
+    correctAnswer: 3,
+    explanation: "Este capítulo contém um salmo de louvor pela libertação do povo de Israel.",
+    difficulty: 'easy',
+  },
+
+  // Médias
+  {
     id: 4,
+    question: "Um cântico que se preocupa em falar de Deus, de quem Ele é e o que Ele faz é:",
+    options: [
+      "Antropocêntrico",
+      "Teocêntrico",
+      "Humanista",
+      "Antífona",
+      "Salmo",
+    ],
+    correctAnswer: 1,
+    explanation: "Um cântico teocêntrico tem Deus como foco principal, destacando Seu caráter e ações.",
+    difficulty: 'medium',
+  },
+  {
+    id: 5,
     question: "O Salmo de Êxodo 15 apresenta, exceto:",
     options: [
       "O poder de Deus",
@@ -58,36 +75,8 @@ export const quizQuestions: QuizQuestion[] = [
     difficulty: 'medium',
   },
   {
-    id: 5,
-    question: "No capítulo 15 de Êxodo encontramos:",
-    options: [
-      "Uma parábola",
-      "Uma genealogia",
-      "Uma oração",
-      "Um salmo",
-      "Um sonho realizado",
-    ],
-    correctAnswer: 3,
-    explanation: "Este capítulo contém um salmo de louvor pela libertação do povo de Israel.",
-    difficulty: 'easy',
-  },
-  {
     id: 6,
-    question: "Qual destes elementos NÃO está presente na estrutura poética do cântico de Êxodo 15?",
-    options: [
-      "Paralelismo sinônimo",
-      "Imagismo cósmico",
-      "Estrutura quiástica",
-      "Métrica silábica rigorosa",
-      "Invocação divina",
-    ],
-    correctAnswer: 3,
-    explanation: "A poesia hebraica não segue métrica silábica fixa como na poesia ocidental.",
-    difficulty: 'hard',
-  },
-  {
-    id: 7,
-    question: " O cântico de Êxodo 15 antecipa qual tema teológico que será desenvolvido posteriormente na Bíblia?",
+    question: "[Nova questão] O cântico de Êxodo 15 antecipa qual tema teológico que será desenvolvido posteriormente na Bíblia?",
     options: [
       "O reinado eterno de Deus",
       "A doutrina da Trindade",
@@ -98,5 +87,21 @@ export const quizQuestions: QuizQuestion[] = [
     correctAnswer: 0,
     explanation: "O verso \"O Senhor reinará para sempre\" (v.18) estabelece este tema crucial.",
     difficulty: 'medium',
+  },
+
+  // Difíceis
+  {
+    id: 7,
+    question: "[Nova questão difícil] Qual destes elementos NÃO está presente na estrutura poética do cântico de Êxodo 15?",
+    options: [
+      "Paralelismo sinônimo",
+      "Imagismo cósmico",
+      "Estrutura quiástica",
+      "Métrica silábica rigorosa",
+      "Invocação divina",
+    ],
+    correctAnswer: 3,
+    explanation: "A poesia hebraica não segue métrica silábica fixa como na poesia ocidental.",
+    difficulty: 'hard',
   },
 ];
