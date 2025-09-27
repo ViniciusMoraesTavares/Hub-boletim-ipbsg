@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HeaderProps } from '../types';
 import { Menu, X } from 'lucide-react';
 import { FaChurch, FaBible, FaUserFriends, FaRegLightbulb, FaWhatsapp } from 'react-icons/fa';
+
+// Tipo para o evento 'beforeinstallprompt' (não presente nas libs padrão do TS)
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: 'accepted' | 'dismissed'; platform?: string[] | string }>;
+};
 
 const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
   const menuItems = [
@@ -11,6 +17,30 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
     { name: 'Quiz', icon: FaRegLightbulb, href: '#quiz' },
     { name: 'Contato', icon: FaWhatsapp, href: '#contato' },
   ];
+
+  const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [canInstall, setCanInstall] = useState(false);
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      e.preventDefault();
+      const bip = e as BeforeInstallPromptEvent;
+      setDeferredPrompt(bip);
+      setCanInstall(true);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    await deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setCanInstall(false);
+      setDeferredPrompt(null);
+    }
+  };
 
   const handleMenuClick = (href: string) => {
     setIsMenuOpen(false);
@@ -62,19 +92,40 @@ const Header: React.FC<HeaderProps> = ({ isMenuOpen, setIsMenuOpen }) => {
             })}
           </nav>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-green-800 hover:text-green-600 transition-colors duration-200"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile Actions */}
+          <div className="md:hidden flex items-center gap-3">
+            {canInstall && (
+              <button
+                onClick={handleInstallClick}
+                className="flex items-center gap-2 px-3 py-2 rounded-lg border border-green-700 text-green-800 hover:bg-green-50"
+                aria-label="Instalar aplicativo"
+              >
+                <img src="/images/ipbsg_ico_convert.webp" alt="Instalar" className="w-5 h-5" />
+                <span className="text-sm">Instalar</span>
+              </button>
+            )}
+            <button
+              className="text-green-800 hover:text-green-600 transition-colors duration-200"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 animate-fadeIn">
             <nav className="py-4">
+              {canInstall && (
+                <button
+                  onClick={handleInstallClick}
+                  className="w-full flex items-center space-x-3 px-4 py-3 text-green-800 hover:bg-green-50 hover:text-green-600 transition-all duration-200"
+                >
+                  <img src="/images/ipbsg_ico_convert.webp" alt="Instalar" className="w-5 h-5" />
+                  <span className="font-medium">Instalar aplicativo</span>
+                </button>
+              )}
               {menuItems.map((item) => {
                 const IconComponent = item.icon;
                 return (

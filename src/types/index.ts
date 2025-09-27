@@ -30,3 +30,10 @@ export interface SocialLink {
 }
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
+
+export interface Bulletin {
+  title: string;
+  date: string;
+  pdf: string;
+  version: string;
+}

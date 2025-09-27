@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
 
 
   const scheduleInfo = [
-    { day: 'Domingo', times: ['09h00 - Escola Dominical', '18h00 - Culto Vespertino'] },
+    { day: 'Domingo', times: ['09h00 - Escola Dominical', '19h00 - Culto Vespertino'] },
     { day: 'Segunda', times: ['19h30 - Reunião nos Lares'] },
     { day: 'Quarta', times: ['19h30 - Estudo Bíblico'] },
   ];

@@ -7,7 +7,7 @@ import QuizSection from '../components/QuizSection';
 import Footer from '../components/Footer';
 import { quizQuestions } from '../data/quizQuestions';
 import { ArrowRight } from "lucide-react";
-import atual from "/pdf/667 - Propostas Indecentes - Boletim virtual.pdf";
+import { currentBulletin } from '../data/bulletins';
 
 const Home: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -59,12 +59,12 @@ const Home: React.FC = () => {
           <div className="bg-white/5 backdrop-blur-sm rounded-3xl shadow-xl p-12 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="text-white md:max-w-lg">
               <h2 className="text-4xl md:text-5xl font-bold mb-4">Boletim da Semana</h2>
-              <p className="text-lg md:text-xl mb-6">Propostas Indecentes - 24/08/2025</p>
+              <p className="text-lg md:text-xl mb-6">{currentBulletin.title} - {currentBulletin.date}</p>
               <p className="mb-6 text-white/90">
                 Veja o boletim completo com a pastoral, avisos e programação semanal. Participe da vida da igreja e acompanhe tudo que acontece na nossa comunidade.
               </p>
               <a
-                href={atual}
+                href={currentBulletin.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-green-900 font-bold px-8 py-4 rounded-2xl text-lg shadow-lg transition-all duration-300"
@@ -75,11 +75,11 @@ const Home: React.FC = () => {
             </div>
 
             <div className="hidden md:block relative w-64 h-96 flex-shrink-0 group cursor-pointer">
-              <a href={atual} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
+              <a href={currentBulletin.pdf} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
 
                 {/* Imagem do boletim */}
                 <img
-                  src="/images/capa_pastoral.webp"
+                  src="/images/capa_pastoral.png"
                   alt="Capa do boletim"
                   className="object-cover w-full h-full rounded-2xl shadow-2xl transition-transform duration-300 group-hover:scale-105"
                   style={{

@@ -1,0 +1,24 @@
+{
+  "name": "Boletim IPB-SG",
+  "short_name": "Boletim IPB-SG",
+  "description": "Hub do Boletim da IPB de Santa Gertrudes: pastoral da semana, boletins, quiz e informações.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#166534",
+  "icons": [
+    {
+      "src": "/images/ipbsg_ico.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/ipbsg_ico_convert.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
