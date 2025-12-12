@@ -19,17 +19,25 @@ const BulletinSection: React.FC = () => {
                 {p}
               </p>
             ))}
-            <div className="mt-6 flex justify-center">
-              <a
-                href={currentBulletin.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-green-700 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-xl shadow transition-colors duration-200"
-              >
-                <ArrowRight size={20} className="mr-2" />
-                Abrir Boletim Atual ({currentBulletin.version})
-              </a>
-            </div>
+            {currentBulletin ? (
+              <div className="mt-6 flex justify-center">
+                <a
+                  href={currentBulletin.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-green-700 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-xl shadow transition-colors duration-200"
+                >
+                  <ArrowRight size={20} className="mr-2" />
+                  Abrir Boletim Atual ({currentBulletin.version})
+                </a>
+              </div>
+            ) : (
+              <div className="mt-6 flex justify-center">
+                <span className="inline-flex items-center justify-center bg-gray-300 text-gray-700 font-semibold px-8 py-3 rounded-xl shadow">
+                  Boletim atual indisponível
+                </span>
+              </div>
+            )}
           </div>
         </div>
 

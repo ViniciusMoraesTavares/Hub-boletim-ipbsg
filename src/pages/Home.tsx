@@ -63,19 +63,26 @@ const Home: React.FC = () => {
               <p className="mb-6 text-white/90">
                 Veja o boletim completo com a pastoral, avisos e programação semanal. Participe da vida da igreja e acompanhe tudo que acontece na nossa comunidade.
               </p>
-              <a
-                href={currentBulletin.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-green-900 font-bold px-8 py-4 rounded-2xl text-lg shadow-lg transition-all duration-300"
-              >
-                <ArrowRight size={24} className="mr-3" />
-                Abrir Boletim
-              </a>
+              {currentBulletin.pdf ? (
+                <a
+                  href={currentBulletin.pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-green-900 font-bold px-8 py-4 rounded-2xl text-lg shadow-lg transition-all duration-300"
+                >
+                  <ArrowRight size={24} className="mr-3" />
+                  Abrir Boletim
+                </a>
+              ) : (
+                <span className="inline-flex items-center justify-center bg-white/30 text-white font-bold px-8 py-4 rounded-2xl text-lg shadow-lg">
+                  Boletim indisponível
+                </span>
+              )}
             </div>
 
             <div className="hidden md:block relative w-64 h-96 flex-shrink-0 group cursor-pointer">
-              <a href={currentBulletin.pdf} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
+              {currentBulletin.pdf ? (
+                <a href={currentBulletin.pdf} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
 
                 {/* Imagem do boletim */}
                 <img
@@ -102,7 +109,19 @@ const Home: React.FC = () => {
                 </div>
                 <div className="absolute -top-8 -right-8 w-20 h-20 bg-white rounded-full opacity-20 animate-pulse"></div>
                 <div className="absolute -bottom-10 left-10 w-16 h-16 bg-white rounded-full opacity-20 animate-pulse"></div>
-              </a>
+                </a>
+              ) : (
+                <div className="block w-full h-full relative">
+                  <img
+                    src="/images/capa_pastoral.png"
+                    alt="Capa do boletim"
+                    className="object-cover w-full h-full rounded-2xl shadow-2xl"
+                    style={{
+                      clipPath: "polygon(0 0, 100% 0, 100% 80%, 0 100%)",
+                    }}
+                  />
+                </div>
+              )}
             </div>
           </div>
         </div>
