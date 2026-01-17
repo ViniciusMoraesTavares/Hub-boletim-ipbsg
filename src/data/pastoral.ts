@@ -1,9 +1,11 @@
 export const pastoral = {
-  title: 'APROXIME SEU FILHO DA IGREJA',
+  title: 'A PREGAÇÃO DE JOÃO BATISTA',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'A primeira pessoa que registrou e escreveu um livro sobre a vida de Jesus, seu ministério, morte e ressurreição foi João Marcos. Não somente o primeiro escritor do Evangelho que serviu de base para os evangelhos de Mateus e Lucas, também se destacou como missionário ao lado de Paulo e Barnabé, desenvolveu um ministério junto ao apóstolo Pedro e foi recomendado por Paulo como um servo útil e valioso.',
-    'Embora tivesse aprendido muito sobre pastorado, missões e teologia com Barnabé, Paulo e Pedro a base de João Marcos se deu em seu convívio na igreja. Ele era filho de uma mulher chamada Maria que desde os primeiros passos da igreja primitiva esteve envolvida com a igreja. Na verdade, a casa dela serviu de abrigo para os discípulos e local de reunião para igreja se reunir de modo que João Marcos estava presente nas orações, meditações e trabalhos realizados no cenáculo mobiliado que havia naquela casa.',
-    'João Marcos literalmente vivia a igreja dentro de sua casa e isso impactou positivamente a sua vida, suas escolhas e o caminho bem sucedido que percorreu. Faça de sua casa uma igreja, um local de oração e meditação da Palavra onde seus filhos crescerão. Também tenha o zelo de trazê-los e acompanhá-los na igreja, nos trabalhos que ela realiza, de preferência incentivando-os a participarem e trabalharem na obra do Senhor. Semeie hoje e espere na boa colheita do amanhã.'
+    'O Evangelho de Marcos dos quatro é o que mais enfatiza as obras de Jesus durante o seu ministério que é precedido, segundo este evangelista por 3 eventos preparatórios registrados no primeiro capítulo: a) A vinda e pregação de João Batista, b) O batismo de Jesus e c) A tentação de Jesus. Vejamos hoje o que nos ensina a vinda de João Batista, a pregação do profeta e o seu batismo no rio Jordão.',
+    'A vinda de João Batista era antes de tudo o cumprimento da profecia tão aguardada desde a queda e proferida pelas bocas dos profetas Malaquias (400 anos antes) e Isaías (700 anos antes). Ele era o endireitador do Caminho, a voz clamante do Deserto e o Elias que viria antes do terrível Dia do Senhor. Aquilo que Deus promete Ele cumpre e tudo aquilo que é registrado na Escritura Sagrada deve ser recebido como Palavra infalível de Deus que sempre se cumprirá.',
+    'A pregação de João Batista era uma chamada ao arrependimento para a remissão de pecados (v.4). Era o abandono de uma religião de fachada para uma conversão verdadeira que exigia dos seus ouvintes a confissão e o abandono dos seus pecados (v.5).',
+    'O Batismo de João era um preparo para aquele que viria e traria um batismo maior, definitivo. Aquele que de fato removeria o pecado e derramaria o seu Espírito conforme predito nas Escrituras ( Ezequiel 36.26- 27; Isaías 44.3; Joel 2.28-29).',
+    'Este Espírito testifica a palavra, nos convence do pecado, nos assegura para Deus e nos capacita para uma nova vida.'
   ],
 };
