@@ -86,6 +86,7 @@ const Footer: React.FC = () => {
               <p>Jardim Luciana</p>
               <p>CEP: 13513-162</p>
               <p>Santa Gertrudes - SP</p>
+              <p>CNPJ: 00.452.788/0001-77</p>
             </div>
           </div>
 
