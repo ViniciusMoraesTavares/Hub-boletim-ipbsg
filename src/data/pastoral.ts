@@ -1,11 +1,11 @@
 export const pastoral = {
-  title: 'A tentação de Jesus',
+  title: 'A Lição da Mulher Sunamita',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'A tentação de Jesus é o último dos três atos preparatórios para o Seu ministério terreno. Impelido pelo Espírito, Ele foi levado ao deserto para enfrentar o maior estratagema de indução da mente humana já concebido na história. Durante quarenta dias, Jesus enfrentou a tentação; embora enfraquecido em Seu corpo, saiu vitorioso, fortalecido pelo Espírito e pela Palavra de Deus. Vejamos alguns aspectos dessa vitória:',
-    'Jesus como o Segundo Adão: O primeiro Adão desobedeceu, trazendo à humanidade o pecado e a morte. Em contraste, Jesus, obediente a Deus em todos os momentos, conquistou o direito à justiça e à vida eterna para todos aqueles que Ele representa, cumprindo o Pacto de Obras em nosso lugar.',
-    'Jesus como o Verdadeiro Israel: O povo de Israel, chamado de "filho de Deus" (Oséias 11:1), enfrentou o deserto por quarenta anos, período em que murmurou por comida, testou a Deus e cultuou ídolos. Jesus, em Seus quarenta dias, declarou que a Palavra de Deus é superior ao pão, recusou-se a colocar o Senhor à prova e não se curvou diante de Satanás, obedecendo onde Israel falhou.',
-    'Jesus como Sumo Sacerdote Compassivo: O fato de ter sido tentado em todas as coisas e, ainda assim, ter vencido, qualificou Jesus como um Sumo Sacerdote plenamente compassivo. Sua compaixão não é meramente teórica, mas fundamentada em Sua experiência humana real. Ele conhece a pressão da tentação, o que O torna o intercessor perfeito para aqueles que lutam contra o pecado.',
-    'Acheguemo-nos, portanto, a Ele como nosso Senhor e Salvador.'
+    'Em 2 Reis, capítulo 4, encontramos um diálogo marcante. O profeta Eliseu, desejando recompensar uma mulher sunamita por sua generosa hospitalidade, pergunta como poderia retribuir todo o cuidado que recebia dela e de seu marido. A resposta daquela mulher — "Habito no meio do meu povo" — é uma das declarações mais profundas e surpreendentes de todas as Escrituras, pois revela um coração transbordando de contentamento.',
+    'Aquela mulher não tinha filhos, e a esperança de tê-los era remota, pois seu marido já era idoso. Sabemos o quanto a maternidade e um herdeiro significavam para uma mulher naquela cultura. Mesmo assim, ao ser questionada pelo profeta, ela não apresenta uma lista de desejos ou uma queixa sobre o que lhe faltava.',
+    'O que ela faz é olhar para o que tem e não para o que não tem. É agradecer pelo que Deus lhe deu e não viver amargurada pelo que não recebeu, é aproveitar o que possui e não lamentar o que está fora de suas posses.',
+    'Quantas pessoas não conseguem contar as bênçãos de Deus e vivem uma vida insatisfeita porque ainda não aprenderam a enxergar o Deus que nos fortalece, pessoas as vezes abastadas e que ao mesmo tempo sentem falta , pessoas cheias de tudo e que sentem o vazio de não possuírem nada.',
+    'Como disse o pensador cristão Dostoiévski, "existe no homem um vazio do tamanho de Deus".'
   ],
 };
