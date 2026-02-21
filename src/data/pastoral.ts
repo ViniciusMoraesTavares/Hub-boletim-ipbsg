@@ -1,11 +1,11 @@
 export const pastoral = {
-  title: 'A Lição da Mulher Sunamita',
+  title: 'Lições de Daniel',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Em 2 Reis, capítulo 4, encontramos um diálogo marcante. O profeta Eliseu, desejando recompensar uma mulher sunamita por sua generosa hospitalidade, pergunta como poderia retribuir todo o cuidado que recebia dela e de seu marido. A resposta daquela mulher — "Habito no meio do meu povo" — é uma das declarações mais profundas e surpreendentes de todas as Escrituras, pois revela um coração transbordando de contentamento.',
-    'Aquela mulher não tinha filhos, e a esperança de tê-los era remota, pois seu marido já era idoso. Sabemos o quanto a maternidade e um herdeiro significavam para uma mulher naquela cultura. Mesmo assim, ao ser questionada pelo profeta, ela não apresenta uma lista de desejos ou uma queixa sobre o que lhe faltava.',
-    'O que ela faz é olhar para o que tem e não para o que não tem. É agradecer pelo que Deus lhe deu e não viver amargurada pelo que não recebeu, é aproveitar o que possui e não lamentar o que está fora de suas posses.',
-    'Quantas pessoas não conseguem contar as bênçãos de Deus e vivem uma vida insatisfeita porque ainda não aprenderam a enxergar o Deus que nos fortalece, pessoas as vezes abastadas e que ao mesmo tempo sentem falta , pessoas cheias de tudo e que sentem o vazio de não possuírem nada.',
-    'Como disse o pensador cristão Dostoiévski, "existe no homem um vazio do tamanho de Deus".'
+    'A oração deve ser uma prática constante na vida do crente, mas vai além de palavras ensaiadas. Aoração verdadeira reflete nossa caminhada com Deus, e o profeta Daniel nos mostra como. O capítulo 9 de seu livro registra uma oração que nos serve como guia para aprofundar nossa comunicação com o Pai, revelando três características fundamentais.',
+    'Primeiro, Daniel tinha a oração como um estilo de vida. Não era um evento esporádico, mas um hábito essencial. No capítulo 6, vemos que seu costume de orar três vezes ao dia era uma disciplina inabalável, mesmo sob ameaça de morte. Aoração era o ritmo que marcava sua vida.',
+    'Em segundo lugar, Daniel cultivava uma vida justa diante de Deus. Sua integridade não era negociável. Desde a juventude (Dn 1) até a vida adulta (Dn 6), sua conduta irrepreensível era a base de sua profunda intimidade com o Senhor. Uma vida reta valida e fortalece nossas orações.',
+    'Por fim, Daniel era um leitor e conhecedor das Escrituras. No capítulo 9, o encontramos meditando no livro de Jeremias e citando a Lei de Moisés. A Palavra de Deus era o combustível para sua vida de piedade, moldando sua compreensão e suas petições. Ele orava a Palavra, e a Palavra guiava suas orações.',
+    'A verdadeira oração, portanto, é o reflexo de uma vida com Deus. É um diálogo constante que envolve falar com Deus, buscar ouvir de Deus e, acima de tudo, viver para Deus. Que o exemplo de Daniel nos inspire a buscar essa profundidade.'
   ],
 };
