@@ -1,10 +1,11 @@
 export const pastoral = {
-  title: 'O TEMPO CUMPRIDO: ARREPENDIMENTO E FÉ',
+  title: 'O Chamado Radical ao Discipulado',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Aqui encontramos o resumo da mensagem central de Jesus: "O tempoestá cumprido, e o Reino de Deus está próximo. Arrependei-vos e crede no evangelho". Essas palavras marcam o início de uma nova era na história da salvação. Jesus anuncia, o kairós — o momento oportuno e determinado por Deus para o cumprimento de todas as Suas promessas.',
-    'O Reino que Jesus proclama não é político ou militar, como muitos judeus da época esperavam, mas um reino espiritual que se estabelece primeiramente no coração do homem. Ele se manifesta em duas etapas: o "já", iniciado com a vinda de Cristo , e o "ainda não", que se consumará em Sua volta gloriosa.',
-    'Para entrar nesse Reino, Jesus é necessário: arrependimento e fé. O arrependimento bíblico vai muito além do remorso; é uma mudança radical de mente e de direção, abandonando a rebelião natural contra Deus e os nossos pecados. É reconhecer que estávamos no caminho errado e decidir, pela graça, seguir a vontade do Pai. A segunda condição é crer no Evangelho. Fé não é apenas concordar intelectualmente com fatos históricos, mas confiar totalmente em Jesus como o Messias e Filho de Deus. É descansar na obra completa de Cristo na cruz, sabendo que somente através d’Ele temos acesso ao Reino e à reconciliação com o Criador.',
-    'A verdadeira resposta a essa mensagem deve produzir frutos visíveis em nossa vida diária. Humildade, perdão e alegria são os sinais de que o Reino de Deus já habita em nós. Que o anúncio de Jesus nos desperte hoje para uma vida de constante arrependimento e fé, transformando nosso coração e nossa caminhada com o Senhor.'
+    'Contemplamos aqui o início do ministério de Jesus e a convocação de Seus primeiros seguidores. Diferente dos mestres de Sua época, Jesus não espera ser procurado; Ele toma a iniciativa soberana de ir ao encontro de homens comuns em seu ambiente de trabalho. Esse chamado revela que o discipulado não nasce de um desejo humano, mas da graça imperativa do Filho de Deus que nos busca onde estamos.',
+    'A resposta de Simão, André, Tiago e João é marcada por uma prontidão impressionante. Eles deixaram "imediatamente" suas redes e seus pais para seguir a Jesus. Ser discípulo exige uma renúncia radical: não significa necessariamente abandonar o trabalho ou a família de forma literal para todos, mas sim colocar Jesus acima de todas as redes de segurança e afetos que antes governavam nossa existência.',
+    'Jesus declara: "Eu vos farei pescadores de homens". Ele não anula as habilidades dos discípulos, mas as redireciona para o Reino. A vida do seguidor de Cristo deixa de ser focada no mero sucesso pessoal para se tornar um instrumento de proclamação da mensagem da salvação a outros.',
+    'Seguir a Jesus significa que Ele é quem define nossa agenda, nossas prioridades e nossos valores. Não somos mais donos de nossos barcos ou redes; somos servos de um Mestre cujos propósitos são eternos. O discipulado é, portanto, uma entrega ao serviço de Cristo.',
+    'Que possamos, como aqueles primeiros pescadores, ouvir a voz de Jesus ecoando em nosso cotidiano. Que o nosso "sim" seja pronto e que nossa vida reflita a alegria de pertencer a Ele.'
   ],
 };
