@@ -1,11 +1,11 @@
 export const pastoral = {
-  title: 'O Chamado Radical ao Discipulado',
+  title: 'A Autoridade de Jesus',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Contemplamos aqui o início do ministério de Jesus e a convocação de Seus primeiros seguidores. Diferente dos mestres de Sua época, Jesus não espera ser procurado; Ele toma a iniciativa soberana de ir ao encontro de homens comuns em seu ambiente de trabalho. Esse chamado revela que o discipulado não nasce de um desejo humano, mas da graça imperativa do Filho de Deus que nos busca onde estamos.',
-    'A resposta de Simão, André, Tiago e João é marcada por uma prontidão impressionante. Eles deixaram "imediatamente" suas redes e seus pais para seguir a Jesus. Ser discípulo exige uma renúncia radical: não significa necessariamente abandonar o trabalho ou a família de forma literal para todos, mas sim colocar Jesus acima de todas as redes de segurança e afetos que antes governavam nossa existência.',
-    'Jesus declara: "Eu vos farei pescadores de homens". Ele não anula as habilidades dos discípulos, mas as redireciona para o Reino. A vida do seguidor de Cristo deixa de ser focada no mero sucesso pessoal para se tornar um instrumento de proclamação da mensagem da salvação a outros.',
-    'Seguir a Jesus significa que Ele é quem define nossa agenda, nossas prioridades e nossos valores. Não somos mais donos de nossos barcos ou redes; somos servos de um Mestre cujos propósitos são eternos. O discipulado é, portanto, uma entrega ao serviço de Cristo.',
-    'Que possamos, como aqueles primeiros pescadores, ouvir a voz de Jesus ecoando em nosso cotidiano. Que o nosso "sim" seja pronto e que nossa vida reflita a alegria de pertencer a Ele.'
+    'Em Marcos 1:21-28, vemos o impacto da presença de Jesus em Cafarnaum. Sua autoridade se mostra inigualável, tanto no ensino quanto no poder sobre as trevas. Diferente dos escribas, Ele não apenas citava a Lei; falava como o próprio Autor da Palavra, maravilhando a todos.',
+    'Essa autoridade é também perturbadora, pois não busca só admiração, mas confronta a realidade espiritual. Ao expulsar o demônio com uma ordem, Jesus revela Seu domínio absoluto. O espanto foi geral, um temor que reconhecia ali algo divino e totalmente novo.',
+    'Muitas vezes, falhamos em compreender a dimensão dessa autoridade. Em meio às lutas, pensamos que há casos onde o poder de Cristo não alcança. Contudo, a Bíblia é clara: "para isso se manifestou o Filho de Deus: para destruir as obras do diabo".',
+    'Sendo assim, não há situação ou inimigo que possa prevalecer contra a Sua voz. A mesma autoridade que silenciou o mal na sinagoga nos convida a descansar em Sua soberania hoje. Quando reconhecemos Jesus como Senhor, o medo perde espaço para a confiança em Sua vitória.',
+    'Que nossa resposta a esse poder não seja apenas de espanto, mas de entrega total Àquele que tem toda a autoridade nos céus e na terra. Nele, somos mais que vencedores, pois Seu Reino chegou com poder.'
   ],
 };
