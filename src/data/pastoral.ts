@@ -1,11 +1,10 @@
 export const pastoral = {
-  title: 'A Autoridade de Jesus',
-  author: 'Rev. Júlio Alexandre',
+  title: 'DESCANSE NO COLO DE DEUS',
+  author: 'Extraído da revista Cada Dia',
   paragraphs: [
-    'Em Marcos 1:21-28, vemos o impacto da presença de Jesus em Cafarnaum. Sua autoridade se mostra inigualável, tanto no ensino quanto no poder sobre as trevas. Diferente dos escribas, Ele não apenas citava a Lei; falava como o próprio Autor da Palavra, maravilhando a todos.',
-    'Essa autoridade é também perturbadora, pois não busca só admiração, mas confronta a realidade espiritual. Ao expulsar o demônio com uma ordem, Jesus revela Seu domínio absoluto. O espanto foi geral, um temor que reconhecia ali algo divino e totalmente novo.',
-    'Muitas vezes, falhamos em compreender a dimensão dessa autoridade. Em meio às lutas, pensamos que há casos onde o poder de Cristo não alcança. Contudo, a Bíblia é clara: "para isso se manifestou o Filho de Deus: para destruir as obras do diabo".',
-    'Sendo assim, não há situação ou inimigo que possa prevalecer contra a Sua voz. A mesma autoridade que silenciou o mal na sinagoga nos convida a descansar em Sua soberania hoje. Quando reconhecemos Jesus como Senhor, o medo perde espaço para a confiança em Sua vitória.',
-    'Que nossa resposta a esse poder não seja apenas de espanto, mas de entrega total Àquele que tem toda a autoridade nos céus e na terra. Nele, somos mais que vencedores, pois Seu Reino chegou com poder.'
+    '“Pelo contrário, fiz calar e sossegar a minha alma; como a criança desmamada se aquieta nos braços de sua mãe...”',
+    'Quando uma criança está com fome, não consegue dormir nem se aquietar nos braços de sua mãe. Só consegue depois que se amamenta, sossega e se acalma. O salmista viu esta cena e encontrou um bom exemplo para calar e sossegar a sua alma. Mesmo tendo sido alimentado por Deus e se fartado das ricas iguarias do banquete divino, continuava inquieto. Por isso, ele fez calar e sossegar sua alma. Sua alma precisava de convencimento e exortação. Não estava se apropriando da bênção da entrega plena e do descanso restaurador.',
+    'Ao ver o exemplo da criança, que depois de ser amamentada, se entrega à quietude nos braços da mãe, sentiu-se encorajado a fazer o mesmo com a sua alma. Talvez, você também, mesmo sendo um cristão, esteja vivendo em constante inquietação. O barulho das circunstâncias berra aos seus ouvidos. O ruído dos sentimentos turbulentos apavora a sua alma. Talvez você esteja andando cansado e sobrecarregado.',
+    'Como uma ovelha sem pastor, você está exausto. Suas emoções estão abaladas. Seu corpo está fragilizado. Sua alma está desassossegada. É hora de você reagir. É tempo de você pôr um ponto final nessa angústia. Volte seus olhos para Deus. Ele tem cuidado de você. Refugie-se em seus braços e deposite aos seus pés toda a sua ansiedade. Ele é poderoso para cuidar de você!'
   ],
 };
