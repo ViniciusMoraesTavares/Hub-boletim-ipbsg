@@ -80,7 +80,7 @@ const Home: React.FC = () => {
               )}
             </div>
 
-            <div className="hidden md:block relative w-64 h-96 flex-shrink-0 group cursor-pointer">
+            <div className="block relative w-full h-64 sm:w-64 sm:h-96 flex-shrink-0 group cursor-pointer mx-auto md:mx-0">
               {currentBulletin.pdf ? (
                 <a href={currentBulletin.pdf} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
 

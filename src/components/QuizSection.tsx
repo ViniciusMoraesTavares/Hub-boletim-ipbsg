@@ -32,7 +32,7 @@ const quizReducer = (state: QuizState, action: QuizAction): QuizState => {
 };
 
 const QuizSection: React.FC<QuizSectionProps> = ({ questions }) => {
-  const QUIZ_VERSION = '22-03-2026';
+  const QUIZ_VERSION = '29-03-2026';
   const quizKey = `quiz_${QUIZ_VERSION}`;
 
   const savedState = localStorage.getItem(quizKey);

@@ -8,3 +8,9 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>
 );
+
+const splash = document.getElementById('app-splash');
+if (splash) {
+  // Defer removal to the next frame to avoid white flash on some WebViews
+  requestAnimationFrame(() => splash.remove());
+}

@@ -2,14 +2,24 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/ipbsg_ico.png" />
+    <link rel="icon" type="image/png" href="/images/ipbsg_ico.png" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#166534" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Boletim IPBSG" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/ipbsg_ico.png" />
     <title>Hub do Boletim - IPB.SG</title>
     <meta name="description" content="Acompanhe o boletim dominical, informações e atividades da Igreja Presbiteriana do Brasil" />
     <meta name="keywords" content="Igreja Presbiteriana, IPB, Boletim, Quiz Bíblico, Comunidade Cristã" />
   </head>
   <body>
+    <div id="app-splash" class="app-splash" aria-hidden="true">
+      <div class="app-splash-safe">
+        <div class="app-splash-logo" role="img" aria-label="Boletim IPB Santa Gertrudes"></div>
+      </div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
