@@ -1,9 +1,11 @@
 export const pastoral = {
-  title: 'JESUS, O SERVO REI',
-  author: 'Extraído da revista Cada Dia',
+  title: 'O PARALÍTICO, OS AMIGOS E A FÉ',
+  author: 'REV. RONALDO LIDÓRIO',
   paragraphs: [
-    'Marcos deixa-nos registrado um dia inteiro de atividades de Jesus no capítulo 1, desde a manhã de sábado até a manhã do domingo mostrando-nos lições preciosas acerca do ministério de Jesus que, segundo Isaías 61, veio pregar boas novas, curar quebrantados, pôr em liberdade os cativos, anunciando assim o Reino de Deus.',
-    'Jesus começa o dia de sábado pregando o evangelho na sinagoga e demonstrando sua autoridade sobre o reino das trevas ao subjugar e expulsar um demônio. Na parte da tarde, na casa de Pedro e em companhia de seus discípulos, ele cura a sogra de Pedro de sua doença e ela passa a servi-lo. No início da noite, já domingo para os judeus, os doentes e endemoninhados foram levados até Jesus, que curou e libertou a todos. Descansa por algumas horas e se levanta de madrugada para orar, e assim permanece até de manhã quando, encontrado por seus discípulos, se dispõe a seguir para outros lugares anunciando o Reino de Deus.',
-    'Jesus é o que serve, que se compadece e que restaura a todos que o buscam. Jesus é o que se submete ao Pai e o busca em oração, alinhando sua vida aos propósitos dEle. Jesus é aquele que não se deixa levar pela fama e, por isso, não perde o foco de sua missão. Jesus é aquele que veio para salvar e é aquele que voltará como Rei sublime, consumando o Reino de Deus.'
+    'Há amigos, e há aqueles mais chegados que irmãos. Aqui vemos a história de um paralítico e seus amigos que se encontraram com Jesus.',
+    'Não sabemos os nomes daqueles quatro homens, nem que relação eles tinham com o paralítico. Tanto no texto em Marcos quanto em Mateus e Lucas, porém, é relatado que eles foram intencionais e insistentes em apresentar o paralítico a Cristo. E lemos que Jesus viu a fé "deles". Aqueles quatro homens, portanto, tinham não apenas uma forte intenção de ajudar o paralítico, mas tinham fé que Jesus poderia curá-lo. Duas importantes considerações podem ser feitas.',
+    'Os amigos do paralítico eram companheiros de fé. Eles buscavam juntos a Jesus e criam juntos em Jesus. E, vendo as multidões e as barreiras para levarem o amigo até Cristo, foram criativos e insistentes, removendo parte do telhado para baixarem o paralítico em uma maca, ficando frente a frente com Cristo. Precisamos de amigos de fé — aqueles que caminham conosco, creem conosco e lutam conosco. E precisamos ser tais amigos também para os outros.',
+    'Jesus perdoa os pecados e cura o corpo. O Senhor Jesus, vendo a fé que eles tinham, primeiramente disse: "os seus pecados estão perdoados" (v.5). E, sendo questionado se poderia perdoar os pecados, completou: "Levante-se, pegue a sua maca e vá para casa" (v.11). "Ele se levantou, pegou a maca e saiu à vista de todos" (v.12).',
+    'O mais difícil não era curar o corpo, mas perdoar os pecados. Outros discípulos fizeram curas e milagres, mas apenas o Redentor poderia perdoar os pecados. Peça a Deus a cura do corpo, sempre que necessário. Mas não se esqueça que Ele veio para algo maior, transformador e permanente: perdoar os nossos pecados. Oremos!'
   ],
 };
