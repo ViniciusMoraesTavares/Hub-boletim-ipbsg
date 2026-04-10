@@ -1,11 +1,13 @@
 export const pastoral = {
-  title: 'O PARALÍTICO, OS AMIGOS E A FÉ',
-  author: 'REV. RONALDO LIDÓRIO',
+  title: 'JESUS É O SENHOR DO SÁBADO',
+  author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Há amigos, e há aqueles mais chegados que irmãos. Aqui vemos a história de um paralítico e seus amigos que se encontraram com Jesus.',
-    'Não sabemos os nomes daqueles quatro homens, nem que relação eles tinham com o paralítico. Tanto no texto em Marcos quanto em Mateus e Lucas, porém, é relatado que eles foram intencionais e insistentes em apresentar o paralítico a Cristo. E lemos que Jesus viu a fé "deles". Aqueles quatro homens, portanto, tinham não apenas uma forte intenção de ajudar o paralítico, mas tinham fé que Jesus poderia curá-lo. Duas importantes considerações podem ser feitas.',
-    'Os amigos do paralítico eram companheiros de fé. Eles buscavam juntos a Jesus e criam juntos em Jesus. E, vendo as multidões e as barreiras para levarem o amigo até Cristo, foram criativos e insistentes, removendo parte do telhado para baixarem o paralítico em uma maca, ficando frente a frente com Cristo. Precisamos de amigos de fé — aqueles que caminham conosco, creem conosco e lutam conosco. E precisamos ser tais amigos também para os outros.',
-    'Jesus perdoa os pecados e cura o corpo. O Senhor Jesus, vendo a fé que eles tinham, primeiramente disse: "os seus pecados estão perdoados" (v.5). E, sendo questionado se poderia perdoar os pecados, completou: "Levante-se, pegue a sua maca e vá para casa" (v.11). "Ele se levantou, pegou a maca e saiu à vista de todos" (v.12).',
-    'O mais difícil não era curar o corpo, mas perdoar os pecados. Outros discípulos fizeram curas e milagres, mas apenas o Redentor poderia perdoar os pecados. Peça a Deus a cura do corpo, sempre que necessário. Mas não se esqueça que Ele veio para algo maior, transformador e permanente: perdoar os nossos pecados. Oremos!'
+    'Nos primeiros capítulos, Marcos apresenta Jesus como aquele que tem autoridade em suas palavras, sobre os espíritos imundos, sobre as doenças, autoridade para perdoar pecados e, na última frase do capítulo 2, o registro de que Jesus tem autoridade sobre o sábado. Ele não veio para anular a Lei de Moisés ou os Profetas, mas para dar-lhes pleno cumprimento, mostrando seu verdadeiro significado. Ele obedeceu à lei perfeitamente, ensinou seu propósito correto e estabeleceu o amor a Deus e ao próximo como o núcleo de todos os mandamentos.',
+
+    'Os fariseus haviam criado uma lista de coisas proibidas no dia de sábado, enfatizando muito mais as proibições que a misericórdia, sem considerar a necessidade humana e o bem-estar que deveria ser produzido ao seguir o quarto mandamento.',
+
+    'Diferentemente dos outros mandamentos do decálogo, há no quarto um aspecto moral e outro cerimonial, sendo o primeiro eterno e imutável e o segundo adaptável conforme a necessidade. Isso pode ser observado na própria comparação que Jesus faz do sábado com os pães da proposição (vv. 25-26).',
+
+    'Deus separou um dia para que o homem descansasse, para atender à necessidade de repouso, bem como um dia onde o homem pudesse desfrutar livremente de Deus juntamente com toda a sua casa, deleitando-se com prazer na presença do Senhor. Com isso, Jesus ensina que no sábado são lícitas obras de necessidade e obras de misericórdia.'
   ],
 };
