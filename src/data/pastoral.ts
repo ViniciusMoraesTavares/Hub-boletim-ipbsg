@@ -1,13 +1,17 @@
 export const pastoral = {
-  title: 'JESUS É O SENHOR DO SÁBADO',
+  title: 'QUANDO SE ABANDONA O AMOR',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Nos primeiros capítulos, Marcos apresenta Jesus como aquele que tem autoridade em suas palavras, sobre os espíritos imundos, sobre as doenças, autoridade para perdoar pecados e, na última frase do capítulo 2, o registro de que Jesus tem autoridade sobre o sábado. Ele não veio para anular a Lei de Moisés ou os Profetas, mas para dar-lhes pleno cumprimento, mostrando seu verdadeiro significado. Ele obedeceu à lei perfeitamente, ensinou seu propósito correto e estabeleceu o amor a Deus e ao próximo como o núcleo de todos os mandamentos.',
+    'Vemos um confronto intenso entre Jesus e a religiosidade de Sua época. Ao entrar na sinagoga, o Mestre encontra um homem com a mão ressequida sob os olhares vigilantes de fariseus que buscavam motivos para acusá-Lo.',
 
-    'Os fariseus haviam criado uma lista de coisas proibidas no dia de sábado, enfatizando muito mais as proibições que a misericórdia, sem considerar a necessidade humana e o bem-estar que deveria ser produzido ao seguir o quarto mandamento.',
+    'O cenário revela um contraste profundo: de um lado, a autoridade restauradora de Cristo; do outro, a dureza de coração daqueles que priorizavam tradições sobre a misericórdia.',
 
-    'Diferentemente dos outros mandamentos do decálogo, há no quarto um aspecto moral e outro cerimonial, sendo o primeiro eterno e imutável e o segundo adaptável conforme a necessidade. Isso pode ser observado na própria comparação que Jesus faz do sábado com os pães da proposição (vv. 25-26).',
+    'Jesus coloca o homem no centro e questiona: "É lícito nos sábados fazer o bem ou fazer o mal?". O silêncio dos fariseus expõe a falência de um sistema legalista que se preocupava com a guarda externa da lei, mas ignorava o sofrimento alheio.',
 
-    'Deus separou um dia para que o homem descansasse, para atender à necessidade de repouso, bem como um dia onde o homem pudesse desfrutar livremente de Deus juntamente com toda a sua casa, deleitando-se com prazer na presença do Senhor. Com isso, Jesus ensina que no sábado são lícitas obras de necessidade e obras de misericórdia.'
+    'Jesus sente uma ira santa contra o pecado, mas fica profundamente entristecido pela cegueira espiritual daqueles que preferiam regras mortas ao Autor da Vida. Devemos orar para que o Senhor nos livre dessa cegueira espiritual. Muitas vezes, a familiaridade com as coisas de Deus nos torna calejados, perdendo a capacidade de nos maravilharmos com a graça.',
+
+    'A solução é a entrega total à autoridade de Cristo, que não apenas restaura mãos paralisadas, mas transforma corações endurecidos em corações sensíveis à Sua voz.',
+
+    'Que nossa fé seja movida pela misericórdia, sem nunca colocar tradições acima do mandamento de amar a Deus e ao próximo. Jesus é o Restaurador que nos convida a sair da paralisia da religiosidade para a liberdade de uma vida verdadeiramente transformada por Seu poder.'
   ],
 };
