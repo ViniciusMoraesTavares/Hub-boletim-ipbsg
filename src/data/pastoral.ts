@@ -1,17 +1,11 @@
 export const pastoral = {
-  title: 'QUANDO SE ABANDONA O AMOR',
+  title: 'O QUE TE LEVA A JESUS?',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Vemos um confronto intenso entre Jesus e a religiosidade de Sua época. Ao entrar na sinagoga, o Mestre encontra um homem com a mão ressequida sob os olhares vigilantes de fariseus que buscavam motivos para acusá-Lo.',
+    'Vemos Jesus se retirando da sinagoga para a beira-mar. Enquanto as autoridades religiosas O rejeitavam, multidões de todas as regiões O buscavam desesperadamente. O texto revela que as pessoas não vinham por curiosidade intelectual, mas porque ouviam o que Jesus fazia. O eco de Suas obras de cura e libertação atraía os necessitados, mostrando que o testemunho do poder de Deus é um ímã para corações sedentos.',
 
-    'O cenário revela um contraste profundo: de um lado, a autoridade restauradora de Cristo; do outro, a dureza de coração daqueles que priorizavam tradições sobre a misericórdia.',
+    'Ele Se torna acessível a todos, saindo das quatro paredes da religiosidade formal para atender o povo onde ele está. Isso nos ensina que não precisamos nos consertar antes de vir a Cristo; devemos apresentar nossas misérias a Ele exatamente como estamos. Um detalhe importante é o pedido de Jesus por um barquinho. Ele não queria apenas realizar milagres, mas ter um púlpito para ensinar. Embora Jesus cure o corpo, Sua prioridade é a pregação do Reino. Ele não deseja ser visto apenas como um curandeiro, mas como o Mestre da vida eterna.',
 
-    'Jesus coloca o homem no centro e questiona: "É lícito nos sábados fazer o bem ou fazer o mal?". O silêncio dos fariseus expõe a falência de um sistema legalista que se preocupava com a guarda externa da lei, mas ignorava o sofrimento alheio.',
-
-    'Jesus sente uma ira santa contra o pecado, mas fica profundamente entristecido pela cegueira espiritual daqueles que preferiam regras mortas ao Autor da Vida. Devemos orar para que o Senhor nos livre dessa cegueira espiritual. Muitas vezes, a familiaridade com as coisas de Deus nos torna calejados, perdendo a capacidade de nos maravilharmos com a graça.',
-
-    'A solução é a entrega total à autoridade de Cristo, que não apenas restaura mãos paralisadas, mas transforma corações endurecidos em corações sensíveis à Sua voz.',
-
-    'Que nossa fé seja movida pela misericórdia, sem nunca colocar tradições acima do mandamento de amar a Deus e ao próximo. Jesus é o Restaurador que nos convida a sair da paralisia da religiosidade para a liberdade de uma vida verdadeiramente transformada por Seu poder.'
+    'Além disso, Ele silencia o testemunho dos demônios, pois deseja ser conhecido pela fé genuína e pelas Escrituras, não por propaganda espiritual confusa. Que essa passagem nos inspire a examinar o que nos atrai a Jesus. Que não deixemos que as ocupações legítimas da vida nos impeçam de buscar o encontro com o Salvador. Ele continua disponível para todos os que reconhecem sua debilidade moral e espiritual. Que o eco das obras de Cristo em nossa própria vida também sirva para atrair outros ao único que pode verdadeiramente restaurar e dar sentido à existência humana.'
   ],
 };
