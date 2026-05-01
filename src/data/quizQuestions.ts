@@ -1,6 +1,6 @@
 import { QuizQuestion } from '../types';
 
-export const quizChamado: QuizQuestion[] = [
+export const quizQuestions: QuizQuestion[] = [
   // ---- Fáceis ----
   {
     id: 1,
@@ -149,7 +149,7 @@ export const quizChamado: QuizQuestion[] = [
 ];
 
 const __distribution = [0, 0, 0, 0, 0];
-for (const q of quizChamado) {
+for (const q of quizQuestions) {
   const idx = q.correctAnswer;
   if (idx >= 0 && idx <= 4) __distribution[idx]++;
 }
