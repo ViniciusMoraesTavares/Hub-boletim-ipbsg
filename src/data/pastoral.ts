@@ -1,4 +1,4 @@
-export const pastoralChamado = {
+export const pastoral = {
   title: 'MARCAS DO CHAMADO DE CRISTO',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
