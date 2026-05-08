@@ -1,15 +1,13 @@
 export const pastoral = {
-  title: 'MARCAS DO CHAMADO DE CRISTO',
-  author: 'Rev. Júlio Alexandre',
+  title: 'O PECADO IMPERDOÁVEL',
+  author: 'Bíblia de Estudos de Genebra',
   paragraphs: [
-    'Jesus teve muitos seguidores durante Seu ministério e, entre eles, selecionou doze para serem Seus discípulos mais próximos. Ao olharmos com atenção para o relato de Marcos sobre essa convocação, podemos perceber características fundamentais sobre o chamado ao discipulado.',
+    'A solene advertência de Jesus a respeito de um pecado que não será perdoado, nem neste mundo nem no vindouro, é registrada pelos três Evangelhos Sinóticos (Mt 12.31-32; Mc 3.28-30; Lc 12.10). Especificamente, esse pecado é a "blasfêmia contra o Espírito Santo". Essa blasfêmia é um ato consumado pela palavra, uma expressão dos pensamentos do coração (Mt 12.33-37; cf. Rm 10.9-10).',
 
-    'Em primeiro lugar, esta convocação é soberana. Jesus exerceu Sua vontade ao fazer a escolha, como destaca o versículo 13: "e chamou os que ele mesmo quis". O próprio Senhor declarou tempos depois: "Não fostes vós que me escolhestes a mim; pelo contrário, eu vos escolhi a vós outros" (Jo 15:16). Jesus escolheu quem Ele quis, e eles, deixando tudo, prontamente O seguiram.',
+    'No contexto específico, os opositores de Jesus estavam dizendo que o Poder que estava operando boas obras entre eles não era Deus, mas o diabo. Jesus faz distinção entre essa blasfêmia e outros pecados, tanto pecados da língua como outros pecados em geral. O que torna diferente dos outros o pecado imperdoável é a sua relação com o Espírito Santo.',
 
-    'Em segundo lugar, esta convocação é graciosa. Jesus não escolheu os "melhores" de Sua época, nem os mais santos. Marcos faz questão de incluir na lista que Tiago e João eram chamados de "filhos do trovão" (devido ao temperamento tempestuoso) e que Judas era aquele que O trairia. O chamado não se baseia no mérito humano, mas na graça divina.',
+    'A obra do Espírito Santo é iluminar a mente dos pecadores (Ef 1.17-18), revelar e ensinar o evangelho (Jo 14.26), persuadir as almas a arrepender-se e a crer na verdade (cf. At 7.51). O Espírito não só explica a Palavra de Deus, mas também abre a mente do modo que ela possa ser entendida (2Co 3.16-17). Quando a influência do Espírito é deliberada e conscientemente recusada, em oposição à luz, então o pecado irreversível pode ser cometido como um ato voluntário e deliberado de malícia.',
 
-    'Finalmente, esta convocação é transformadora. Jesus não escolheu pessoas já capacitadas; em vez disso, ao longo de três anos de discipulado e, posteriormente, com o auxílio do Espírito Santo, eles foram capacitados para o apostolado. Eles experimentaram em suas próprias vidas a transformação profunda que somente Cristo pode produzir.',
-
-    'Ainda hoje, Jesus continua a nos comissionar para a Sua obra de maneira soberana, graciosa e transformadora. Que possamos responder a esse chamado com a mesma prontidão e humildade.'
+    'Em resposta a essa atitude, há um endurecimento do coração, vindo da parte de Deus, que impede o arrependimento e a fé (Hb 3.12-13). Nesse caso, Deus permite que a decisão da vontade humana seja permanente. Deus não faz isto levianamente e sem causa, mas em resposta a um ultraje cometido contra seu amor.'
   ],
 };
