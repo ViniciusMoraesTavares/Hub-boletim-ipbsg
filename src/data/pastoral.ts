@@ -1,11 +1,13 @@
 export const pastoral = {
-  title: 'O PODER DA PALAVRA E O REINO DE DEUS',
-  author: '',
+  title: 'QUÃO BOM É ESTARMOS EM UNIÃO',
+  author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Jesus utiliza parábolas para nos ensinar sobre a natureza e o crescimento do Reino de Deus. A primeira lição é a da candeia: a verdade divina não nos foi dada para ser escondida, mas para iluminar. Assim como uma luz no velador, o Evangelho deve ser proclamado com clareza e generosidade. Somos lembrados de que nossa responsabilidade ao ouvir a Palavra é imensa, pois a medida que usamos para compartilhar o que recebemos será a mesma medida que Deus usará para nos conceder ainda mais entendimento.',
+    'Este salmo foi escrito provavelmente na ocasião da unificação do reino de Israel sob o reinado de Davi depois de sete anos de guerra civil. Curiosamente, dois lugares são citados: o monte Hermom, localizado ao norte, e Sião, localizada ao sul. O salmista mostra como um depende do outro. A criação divina foi desenhada sob a lei da interdependência.',
 
-    'A segunda parábola, a da semente que cresce por si mesma, nos traz um profundo descanso na soberania de Deus. O semeador tem o dever de lançar a semente, mas o poder do crescimento pertence exclusivamente ao Senhor. O Reino de Deus progride de forma invisível e gradual — primeiro a erva, depois a espiga e, por fim, o grão cheio. Essa verdade nos ensina que a maturidade espiritual exige tempo e que devemos confiar no poder intrínseco da Palavra, que germina e frutifica no coração humano pela ação do Espírito Santo.',
+    'Na geografia bíblica, o norte de Israel transbordava em águas e pastagens verdejantes graças ao monte Hermom, mas carecia do solo sagrado de Jerusalém, situado no sul árido, onde habitavam o Templo e a presença de Deus. O norte matava a sede física do sul; o sul saciava a fome espiritual do norte. Nenhum era completo sozinho. Essa dinâmica revela que, aos olhos do Criador, a autossuficiência é uma ilusão e a união é um princípio sagrado.',
 
-    'Por fim, a parábola do grão de mostarda nos encoraja a não desprezarmos os pequenos começos. O que parece insignificante aos olhos do mundo — como uma pequena semente — torna-se a maior das hortaliças. O Reino de Deus começou com um Messias humilde e poucos seguidores, mas expandiu-se por todas as nações. Essa promessa nos garante que a obra de Deus é imparável e que, apesar das fraquezas, a vitória final da Igreja é certa e gloriosa. Que sejamos semeadores fiéis, confiando que a Palavra de Deus nunca volta vazia. Descansemos em Sua soberania sobre o crescimento da Igreja, vivendo como luzes que aguardam a consumação de todas as coisas em Cristo.'
+    'Deus não distribuiu todos os dons a um único grupo para que fôssemos obrigados a caminhar juntos. Quando estendemos as mãos em dependência mútua, transformamos nossas fraquezas individuais em força coletiva. É nesse território de partilha e reconciliação que o ambiente se torna propício para o milagre. Onde os irmãos vivem em comunhão, as barreiras geográficas e políticas desaparecem, e o Senhor ordena a Sua bênção e a vida para sempre.',
+
+    'Como igreja do Senhor, devemos incentivar, buscar e fazer todo o esforço possível para estarmos sempre juntos, para caminharmos lado a lado, tendo prazer na companhia uns dos outros, comendo juntos, brincando juntos, lutando juntos e servindo juntos Àquele que nos uniu em Cristo Jesus.'
   ],
 };
