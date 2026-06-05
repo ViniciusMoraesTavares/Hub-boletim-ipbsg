@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'QUÃO BOM É ESTARMOS EM UNIÃO',
+  title: 'COM CRISTO NO BARCO TUDO VAI MUITO BEM',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Este salmo foi escrito provavelmente na ocasião da unificação do reino de Israel sob o reinado de Davi depois de sete anos de guerra civil. Curiosamente, dois lugares são citados: o monte Hermom, localizado ao norte, e Sião, localizada ao sul. O salmista mostra como um depende do outro. A criação divina foi desenhada sob a lei da interdependência.',
+    'As tempestades da vida são passíveis a todos nós e podem vir como um problema financeiro, um relacionamento destruído, a saúde comprometida, a perda dos filhos, uma tragédia, o abalo no trabalho, uma perseguição injusta e de muitas outras formas. Não existe uma regra, assim como também não existe um meio de ficar imune às tribulações.',
 
-    'Na geografia bíblica, o norte de Israel transbordava em águas e pastagens verdejantes graças ao monte Hermom, mas carecia do solo sagrado de Jerusalém, situado no sul árido, onde habitavam o Templo e a presença de Deus. O norte matava a sede física do sul; o sul saciava a fome espiritual do norte. Nenhum era completo sozinho. Essa dinâmica revela que, aos olhos do Criador, a autossuficiência é uma ilusão e a união é um princípio sagrado.',
+    'Quando olhamos para este texto, vemos que a tribulação pode vir a qualquer momento, sem aviso prévio, sem um alerta. A tribulação não nos sobrevém apenas como consequência de nossos erros, mas pode vir até mesmo quando obedecemos ao chamado de Jesus e atendemos aos Seus pedidos. A tribulação pode se agravar a tal ponto de não vermos saída e alcançar uma dimensão da qual não temos controle algum.',
 
-    'Deus não distribuiu todos os dons a um único grupo para que fôssemos obrigados a caminhar juntos. Quando estendemos as mãos em dependência mútua, transformamos nossas fraquezas individuais em força coletiva. É nesse território de partilha e reconciliação que o ambiente se torna propício para o milagre. Onde os irmãos vivem em comunhão, as barreiras geográficas e políticas desaparecem, e o Senhor ordena a Sua bênção e a vida para sempre.',
+    'A questão mais importante não é estar imune, mas estar com Jesus em todos os momentos. Há um cântico antigo que fala sobre isso e diz: "Com Cristo no barco tudo vai muito bem e passa o temporal". Ele é quem pode trazer bonança e sossego; é aquele que controla todas as coisas, de modo que o vento e o mar Lhe obedecem.',
 
-    'Como igreja do Senhor, devemos incentivar, buscar e fazer todo o esforço possível para estarmos sempre juntos, para caminharmos lado a lado, tendo prazer na companhia uns dos outros, comendo juntos, brincando juntos, lutando juntos e servindo juntos Àquele que nos uniu em Cristo Jesus.'
+    'Somos desafiados a crer em Cristo e confiar no Seu poder, descansando em Sua soberania, lançando sobre Ele toda a nossa ansiedade, tendo paz em Cristo e sabendo que todas as coisas cooperam para o bem daqueles que amam a Deus.'
   ],
 };
