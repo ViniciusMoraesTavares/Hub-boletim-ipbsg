@@ -1,11 +1,13 @@
 export const pastoral = {
-  title: 'O VALOR DE UMA ESCOLHA: DE BITCOINS A PORCOS',
+  title: 'A FÉ QUE SUSTENTA A ORAÇÃO',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Em 22 de maio de 2010, Laszlo Hanyecz abriu mão de 10.000 bitcoins por duas pizzas que somadas custavam apenas 55 reais. Hoje você compra duas pizzas por menos de 100 reais, mas 10.000 bitcoins é impossível de ser ajuntado, pois hoje valem três bilhões, duzentos e cinquenta e dois milhões, setecentos e oito mil, quinhentos e sessenta reais. Se aquele rapaz soubesse o valor real de um bitcoin seria hoje um bilionário, mas contentou-se com duas pizzas que não duraram uma noite.',
+    'No relato de Marcos 5:21-43, encontramos um exemplo poderoso de como a fé deve acompanhar nossa vida e servir de combustível para nossas orações. Embora o poder de Deus se manifeste soberanamente e a ação de Cristo não seja limitada por nossas convicções, a Escritura nos ensina que a confiança plena é a atitude essencial daqueles que buscam ao Senhor.',
 
-    'No texto que acabamos de ler, algo semelhante aconteceu. Jesus chegou até a terra dos gerasenos e lá libertou um homem possesso, cujos espíritos imundos saindo dele entraram em porcos que se atiraram para dentro do mar. Os donos dos porcos, vendo o milagre realizado por Jesus e o prejuízo que tiveram com a perda dos porcos, foram até a cidade espantados e contaram aos cidadãos o que aconteceu.',
+    'Jairo, como principal da sinagoga, era um judeu herdeiro de um monoteísmo convicto. Ele carregava o legado espiritual dos Macabeus, que preferiam a morte a curvar-se diante de qualquer outro que não fosse o Deus verdadeiro. Contudo, o texto afirma que ele se prostrou diante de Jesus e, conforme Mateus, O adorou. Esse gesto revela que Jairo reconheceu em Cristo a própria autoridade divina.',
 
-    'Quando eles foram ver o que tinha acontecido e encontraram o endemoninhado são, viram o que sucedeu com os porcos e suplicaram a Jesus que fosse embora daquele lugar, rejeitando um tesouro eterno por conta de bens temporários. Infelizmente, ainda hoje muitos trocam bênçãos eternas por prazeres temporários que nada valem diante da oferta trazida por Jesus.'
+    'Sua fé foi demonstrada em ações concretas. Jairo creu que, se Jesus impusesse as mãos sobre sua filha, ela viveria. Ele levou o Mestre até sua casa e seguiu Suas orientações, mesmo diante da notícia devastadora de que a menina já estava morta. Jairo não recuou, sustentado pela promessa de Jesus: "Não temas, crê somente" (v. 36).',
+
+    'Essa postura ilustra a recomendação de Tiago: "Peça-a, porém, com fé, em nada duvidando; pois o que duvida é semelhante à onda do mar, impelida e agitada pelo vento" (Tiago 1:6). A fé de Jairo não foi abalada pelas circunstâncias ou pelo pessimismo alheio, mas manteve-se firme Naquele que tem poder sobre a vida e a morte. Que a fé verdadeira e a confiança inabalável no Senhor guiem sua jornada. Que, a exemplo de Jairo, possamos adorar a Cristo em meio às crises e caminhar ao Seu lado, certos de que Sua palavra final é sempre de restauração e vida.'
   ],
 };
