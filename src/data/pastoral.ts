@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'A UNÇÃO COM ÓLEO: SÍMBOLO, NÃO AMULETO',
+  title: 'AS FACES DA INCREDULIDADE',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Em Marcos 6:13 lemos que os discípulos "ungiam muitos enfermos com óleo e os curavam". Na tradição reformada, entendemos que o óleo possuía valor medicinal, mas servia principalmente como um sinal visível da cura realizada pelo poder de Deus, e não por qualquer propriedade mágica do elemento físico. Como ensinou João Calvino, o poder não reside no óleo, mas na oração da fé e na vontade soberana do Senhor.',
+    'Nossa vida é marcada por altos e baixos: momentos em que tudo parece dar certo e outros em que parece que tudo desanda. Em Marcos 5, encontramos dois grandes exemplos de fé: Jairo e a mulher que sofria com hemorragia. Porém, ao chegarmos ao capítulo 6, encontramos um grande contraste com o capítulo anterior: a incredulidade extrema dos nazarenos, de Herodias e de Herodes. Vejamos o que esse capítulo, até o versículo 29, nos ensina sobre as diferentes faces da incredulidade.',
 
-    'O óleo é apenas um símbolo que aponta para a ação do Espírito Santo, o verdadeiro agente de restauração em meio ao sofrimento. Por isso, a teologia reformada rejeita qualquer entendimento que transforme a unção em amuleto ou objeto de poder. A Igreja Presbiteriana do Brasil mantém uma posição equilibrada sobre esse tema: a unção não é um rito obrigatório, mas uma prática excepcional e discreta, realizada exclusivamente em enfermos, nunca em objetos, combatendo o misticismo e toda forma de superstição que procura comercializar a fé.',
+    'Primeiro, vemos a incredulidade pela familiaridade. Os nazarenos viram Jesus crescer e conviviam com Ele. Contudo, essa convivência comum acabou afastando-os de uma experiência mais profunda com Cristo. O mesmo pode acontecer com muitos que foram criados na igreja e se acostumaram tanto com a rotina do templo, os ritos e os cânticos que deixam de experimentar uma comunhão verdadeira com Deus. Tudo se torna normal demais.',
 
-    'A ministração da unção deve ser conduzida por pastores e presbíteros, sempre acompanhada da pregação da Palavra e da oração. O foco permanece na soberania de Deus, reconhecendo que Ele cura segundo o Seu querer, seja por meios extraordinários ou através da medicina, instrumento de Sua providência.',
+    'Em seguida, vemos a incredulidade por conta da negação. Herodias odiava João Batista porque sua mensagem confrontava seu pecado. Para ela, era mais fácil eliminar quem a acusava do que corrigir o próprio erro. De modo semelhante, muitos rejeitam a Deus não por falta de evidências, mas porque é mais confortável negar Sua existência do que abandonar aquilo que Ele condena.',
 
-    'Nossa confiança não repousa em rituais, objetos ou símbolos, mas em Cristo, o Grande Médico. Ao enfrentarmos a enfermidade, busquemos o socorro do Altíssimo com humildade, certos de que a oração da fé continua sendo nosso maior recurso, enquanto descansamos na perfeita vontade daquele que governa todas as coisas.',
+    'Por fim, vemos a incredulidade por conta da acomodação. Herodes sabia que João era justo, santo e piedoso, e o ouvia de bom grado. Mesmo assim, não tomava uma decisão correta. Preferiu manter João preso para não desagradar Herodias e, ao mesmo tempo, preservar uma falsa sensação de segurança. Muitos frequentam os cultos, ouvem conselhos, reconhecem que precisam mudar, mas permanecem acomodados sobre o muro, sem tomar uma decisão diante de Deus. A incredulidade se revela de várias formas, e devemos vigiar para que ela não encontre espaço em nosso coração.',
   ],
 };
