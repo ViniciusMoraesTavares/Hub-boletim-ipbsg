@@ -1,13 +1,11 @@
 export const pastoral = {
-  title: 'AS FACES DA INCREDULIDADE',
-  author: 'Rev. Júlio Alexandre',
+  title: 'O PASTOR DA NOSSA ALMA',
+  author: 'Extraído do Cada Dia',
   paragraphs: [
-    'Nossa vida é marcada por altos e baixos: momentos em que tudo parece dar certo e outros em que parece que tudo desanda. Em Marcos 5, encontramos dois grandes exemplos de fé: Jairo e a mulher que sofria com hemorragia. Porém, ao chegarmos ao capítulo 6, encontramos um grande contraste com o capítulo anterior: a incredulidade extrema dos nazarenos, de Herodias e de Herodes. Vejamos o que esse capítulo, até o versículo 29, nos ensina sobre as diferentes faces da incredulidade.',
+    'Nestas palavras imortais encontramos o consolo de gerações de adoradores. A metáfora do pastorado revela a natureza do relacionamento de Deus com o seu povo: proximidade, cuidado individualizado e provisão constante. O uso do pronome "meu" transforma a teologia em experiência pessoal e íntima. O Senhor não é apenas o Pastor do universo; Ele é o Pastor da minha vida e das minhas necessidades. A declaração "nada me faltará" não é uma promessa de luxo egoísta, mas de suficiência total na jornada.',
 
-    'Primeiro, vemos a incredulidade pela familiaridade. Os nazarenos viram Jesus crescer e conviviam com Ele. Contudo, essa convivência comum acabou afastando-os de uma experiência mais profunda com Cristo. O mesmo pode acontecer com muitos que foram criados na igreja e se acostumaram tanto com a rotina do templo, os ritos e os cânticos que deixam de experimentar uma comunhão verdadeira com Deus. Tudo se torna normal demais.',
+    'Ele nos guia a "pastos verdejantes" e "águas de descanso". A vida pode nos levar a desertos áridos de cansaço e estresse emocional. Contudo, o Senhor nos conduz a lugares de restauração. Lemos no Novo Testamento: "Eu sou o bom Pastor. O bom Pastor dá a vida pelas ovelhas" (João 10:11). O cuidado de Deus por nós custou a vida de Seu Filho unigênito. Se Ele deu o que tinha de mais precioso, como não nos guiará pelo caminho direito?',
 
-    'Em seguida, vemos a incredulidade por conta da negação. Herodias odiava João Batista porque sua mensagem confrontava seu pecado. Para ela, era mais fácil eliminar quem a acusava do que corrigir o próprio erro. De modo semelhante, muitos rejeitam a Deus não por falta de evidências, mas porque é mais confortável negar Sua existência do que abandonar aquilo que Ele condena.',
-
-    'Por fim, vemos a incredulidade por conta da acomodação. Herodes sabia que João era justo, santo e piedoso, e o ouvia de bom grado. Mesmo assim, não tomava uma decisão correta. Preferiu manter João preso para não desagradar Herodias e, ao mesmo tempo, preservar uma falsa sensação de segurança. Muitos frequentam os cultos, ouvem conselhos, reconhecem que precisam mudar, mas permanecem acomodados sobre o muro, sem tomar uma decisão diante de Deus. A incredulidade se revela de várias formas, e devemos vigiar para que ela não encontre espaço em nosso coração.',
+    'Ao permitir que Ele direcione os nossos passos, caminhamos seguros, mesmo quando o vale da sombra da morte se projeta à nossa frente. Não tema as incertezas do amanhã; acalme a sua alma. Deixe que Ele o guie, que Ele o alimente e que Ele cure as suas feridas. Sob o cajado do Senhor há consolo, há proteção e há uma bondade que nos seguirá todos os dias da vida.',
   ],
 };
