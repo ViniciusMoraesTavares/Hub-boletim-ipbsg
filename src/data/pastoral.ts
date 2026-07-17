@@ -1,11 +1,13 @@
 export const pastoral = {
-  title: 'O PASTOR DA NOSSA ALMA',
-  author: 'Extraído do Cada Dia',
+  title: 'DISTORÇÃO DO CORBÃ',
+  author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Nestas palavras imortais encontramos o consolo de gerações de adoradores. A metáfora do pastorado revela a natureza do relacionamento de Deus com o seu povo: proximidade, cuidado individualizado e provisão constante. O uso do pronome "meu" transforma a teologia em experiência pessoal e íntima. O Senhor não é apenas o Pastor do universo; Ele é o Pastor da minha vida e das minhas necessidades. A declaração "nada me faltará" não é uma promessa de luxo egoísta, mas de suficiência total na jornada.',
+    'A palavra Corbã deriva da raiz hebraica qrb, que significa "aproximar-se". Portanto, Corbã era literalmente "aquilo que traz alguém para perto de Deus". Originalmente, declarar algo como Corbã significava que aquele objeto ou valor era consagrado exclusivamente ao Senhor. Uma vez declarado, ele não poderia mais ser utilizado para fins seculares ou pessoais, pois passava a pertencer ao tesouro do Templo.',
 
-    'Ele nos guia a "pastos verdejantes" e "águas de descanso". A vida pode nos levar a desertos áridos de cansaço e estresse emocional. Contudo, o Senhor nos conduz a lugares de restauração. Lemos no Novo Testamento: "Eu sou o bom Pastor. O bom Pastor dá a vida pelas ovelhas" (João 10:11). O cuidado de Deus por nós custou a vida de Seu Filho unigênito. Se Ele deu o que tinha de mais precioso, como não nos guiará pelo caminho direito?',
+    'No tempo de Jesus, porém, a tradição rabínica havia criado uma brecha legalista. Um homem poderia declarar seus bens, ou parte de sua renda, como "Corbã" apenas por meio de um voto verbal. Se um pai ou uma mãe necessitados lhe pedissem ajuda financeira, ele poderia responder: "O que você poderia receber de mim é Corbã" (Marcos 7:11). Com essa justificativa, alegava que aqueles recursos estavam "reservados para Deus" e, por isso, não poderiam ser usados para sustentar os próprios pais.',
 
-    'Ao permitir que Ele direcione os nossos passos, caminhamos seguros, mesmo quando o vale da sombra da morte se projeta à nossa frente. Não tema as incertezas do amanhã; acalme a sua alma. Deixe que Ele o guie, que Ele o alimente e que Ele cure as suas feridas. Sob o cajado do Senhor há consolo, há proteção e há uma bondade que nos seguirá todos os dias da vida.',
+    'O Corbã nasceu como uma iniciativa de aproximar-se de Deus por meio da gratidão, santificando os bens no altar do Senhor. Entretanto, foi distorcido e transformado em um mecanismo de proteção patrimonial, fundamentado no legalismo e na avareza, anulando o quinto mandamento para satisfazer o egoísmo humano.',
+
+    'A verdadeira piedade jamais contradiz a Lei Moral de Deus. Como cristãos reformados, devemos examinar constantemente se nossas tradições e práticas religiosas realmente nos aproximam do Senhor ou se se tornaram apenas máscaras para encobrir nosso egoísmo, nossa avareza e nossa falta de amor ao próximo.',
   ],
 };
