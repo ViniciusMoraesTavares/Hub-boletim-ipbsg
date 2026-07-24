@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'DISTORÇÃO DO CORBÃ',
+  title: 'A GRANDEZA DE SE CURVAR DIANTE DE DEUS',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'A palavra Corbã deriva da raiz hebraica qrb, que significa "aproximar-se". Portanto, Corbã era literalmente "aquilo que traz alguém para perto de Deus". Originalmente, declarar algo como Corbã significava que aquele objeto ou valor era consagrado exclusivamente ao Senhor. Uma vez declarado, ele não poderia mais ser utilizado para fins seculares ou pessoais, pois passava a pertencer ao tesouro do Templo.',
+    'A oração revela a compreensão que temos de Deus e de nós mesmos. Ela funciona como o termômetro da nossa fé, expressando nossa teologia e servindo como ingrediente fundamental para uma caminhada piedosa. Por meio dela, não apenas apresentamos nossas petições, mas também confessamos quem Deus é e quem somos diante dEle. A Bíblia narra a história de uma mulher estrangeira cuja fé foi elogiada por Jesus e que nos ensina preciosas lições sobre a oração. Enquanto Mateus destaca sua perseverança e altruísmo, Marcos enfatiza seu profundo discernimento espiritual.',
 
-    'No tempo de Jesus, porém, a tradição rabínica havia criado uma brecha legalista. Um homem poderia declarar seus bens, ou parte de sua renda, como "Corbã" apenas por meio de um voto verbal. Se um pai ou uma mãe necessitados lhe pedissem ajuda financeira, ele poderia responder: "O que você poderia receber de mim é Corbã" (Marcos 7:11). Com essa justificativa, alegava que aqueles recursos estavam "reservados para Deus" e, por isso, não poderiam ser usados para sustentar os próprios pais.',
+    'Sendo a oração a forma como nos dirigimos ao Pai, podemos compreender o clamor dessa mulher como uma oração exemplar. Ao prostrar-se diante de Jesus (Marcos 7:25), ela reconhece que a oração é, antes de tudo, um ato de adoração. É admitir a grandeza de Deus e a nossa limitação, compreendendo que estamos diante dAquele que faz todas as coisas conforme o conselho da Sua vontade. Sua prostração sincera é acompanhada da humildade expressa em sua resposta sobre as migalhas que caem da mesa (Marcos 7:28).',
 
-    'O Corbã nasceu como uma iniciativa de aproximar-se de Deus por meio da gratidão, santificando os bens no altar do Senhor. Entretanto, foi distorcido e transformado em um mecanismo de proteção patrimonial, fundamentado no legalismo e na avareza, anulando o quinto mandamento para satisfazer o egoísmo humano.',
+    'Em uma sociedade que exalta a autossuficiência, o empoderamento e a recusa em se submeter a qualquer autoridade, essa mulher demonstra que a verdadeira grandeza está na humildade. Ela nos ensina que aquele que se ajoelha diante de Deus permanece firme diante do mundo.',
 
-    'A verdadeira piedade jamais contradiz a Lei Moral de Deus. Como cristãos reformados, devemos examinar constantemente se nossas tradições e práticas religiosas realmente nos aproximam do Senhor ou se se tornaram apenas máscaras para encobrir nosso egoísmo, nossa avareza e nossa falta de amor ao próximo.',
+    'Que nossas orações sejam marcadas por essa mesma confiança e reverência, certos de que a graça de Cristo é sempre suficiente para nos restaurar. Quando nos curvamos diante do Senhor em humilde dependência, reconhecemos que somente Ele é digno de nossa adoração e que somente nEle encontramos a força para viver.',
   ],
 };
