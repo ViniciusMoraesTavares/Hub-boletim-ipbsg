@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'A GRANDEZA DE SE CURVAR DIANTE DE DEUS',
-  author: 'Rev. Júlio Alexandre',
+  title: 'O SENHOR ESTÁ PERTO DE TODOS',
+  author: 'Extraído do Cada Dia',
   paragraphs: [
-    'A oração revela a compreensão que temos de Deus e de nós mesmos. Ela funciona como o termômetro da nossa fé, expressando nossa teologia e servindo como ingrediente fundamental para uma caminhada piedosa. Por meio dela, não apenas apresentamos nossas petições, mas também confessamos quem Deus é e quem somos diante dEle. A Bíblia narra a história de uma mulher estrangeira cuja fé foi elogiada por Jesus e que nos ensina preciosas lições sobre a oração. Enquanto Mateus destaca sua perseverança e altruísmo, Marcos enfatiza seu profundo discernimento espiritual.',
+    'A proximidade de Deus é garantia de segurança para o coração que busca a verdade. O salmista encerra o Saltério com uma proclamação sobre a acessibilidade do Senhor: "Perto está o Senhor de todos os que o invocam." No entanto, a condição espiritual para essa proximidade é que a invocação seja feita "em verdade". Isso exige sinceridade de coração, transparência de motivações e alinhamento com a Escritura.',
 
-    'Sendo a oração a forma como nos dirigimos ao Pai, podemos compreender o clamor dessa mulher como uma oração exemplar. Ao prostrar-se diante de Jesus (Marcos 7:25), ela reconhece que a oração é, antes de tudo, um ato de adoração. É admitir a grandeza de Deus e a nossa limitação, compreendendo que estamos diante dAquele que faz todas as coisas conforme o conselho da Sua vontade. Sua prostração sincera é acompanhada da humildade expressa em sua resposta sobre as migalhas que caem da mesa (Marcos 7:28).',
+    'A salvação divina é completa: abrange o livramento das crises temporais e a preservação para a eternidade. Assim declara o texto: "O Senhor guarda a todos os que o amam; porém os ímpios serão exterminados" (Salmo 145:20). A jornada da oração culmina na adoração pública e contínua: "Profira a minha boca louvores ao Senhor, e toda carne louve o seu santo nome, para todo o sempre" (Salmo 145:21).',
 
-    'Em uma sociedade que exalta a autossuficiência, o empoderamento e a recusa em se submeter a qualquer autoridade, essa mulher demonstra que a verdadeira grandeza está na humildade. Ela nos ensina que aquele que se ajoelha diante de Deus permanece firme diante do mundo.',
+    'O objetivo da oração não é apenas alcançar benefícios, mas exaltar o nome que está acima de todo nome. Que cada clamor, confissão e cântico de gratidão sejam dedicados à glória do Altíssimo. Se hoje você clama pela salvação ou pela realização de um desejo justo, faça-o em verdade e com temor.',
 
-    'Que nossas orações sejam marcadas por essa mesma confiança e reverência, certos de que a graça de Cristo é sempre suficiente para nos restaurar. Quando nos curvamos diante do Senhor em humilde dependência, reconhecemos que somente Ele é digno de nossa adoração e que somente nEle encontramos a força para viver.',
+    'O Senhor ouve, salva e reina soberanamente. Bendiga ao Senhor hoje e por toda a eternidade, pois Ele é fiel em todas as Suas palavras e santo em todas as as Suas obras. Amém.',
   ],
 };
