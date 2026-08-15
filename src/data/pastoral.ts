@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'ENXERGANDO A CRISTO COM CLAREZA: O MILAGRE PEDAGÓGICO',
+  title: 'ASSEMBLEIA EXTRAORDINÁRIA PARA ELEIÇÃO',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Desde o livro de Gênesis até o Apocalipse, observamos que Deus age de forma proposital e perfeita. Da criação à consumação, tudo é orquestrado por Sua soberania. Os milagres de Jesus não fogem a essa regra; cada ação Sua, inclusive a forma como conduziu a cura relatada nesta passagem, possui uma profunda razão pedagógica.',
+    'O governo da Igreja não é uma invenção humana, mas um princípio estabelecido nas Escrituras. A base fundamental da nossa eclesiologia é que Cristo é a cabeça da Igreja, exercendo autoridade suprema sobre o Seu povo por meio da Sua Palavra e do Seu Espírito. Toda autoridade eclesiástica está submetida à primazia do Senhor.',
 
-    'O texto descreve uma cura que, à primeira vista, parece incompleta. Após a primeira intervenção de Jesus, o cego de Betsaida ainda não enxergava perfeitamente (v. 24), sendo necessária uma segunda ação de Cristo para que ele visse claramente (v. 25). Na verdade, havia um propósito pedagógico nesse processo, que se esclarece logo em seguida, quando Marcos narra a confissão de Pedro. Nesse episódio, Jesus pergunta primeiro o que os homens diziam sobre Sua identidade, e a resposta foi parcial.',
+    'Em Atos 15, encontramos o modelo conciliar em funcionamento. Apóstolos e presbíteros reuniram-se para tratar de questões importantes relacionadas ao Reino de Deus. Esse exemplo fundamenta o sistema presbiteriano, no qual a liderança é exercida de forma colegiada por oficiais eleitos e capacitados pelo próprio Cristo.',
 
-    'Contudo, ao questionar os discípulos de forma direta, Pedro responde com clareza, afirmando: "Tu és o Cristo". Assim como a visão do cego foi restaurada em etapas, a compreensão dos discípulos sobre quem Jesus era também seguiu um processo de revelação progressiva. Essa confissão é a rocha sobre a qual a Igreja se sustenta, prosseguindo confiante de que as portas do inferno não prevalecerão contra ela.',
+    'Embora o Espírito Santo seja quem chama e vocaciona os oficiais, a igreja local possui a responsabilidade de reconhecer esses dons. A eleição é o momento em que a comunidade identifica aqueles que Deus levantou para exercer o cuidado espiritual e administrativo da igreja, seguindo os princípios estabelecidos nas Escrituras.',
 
-    'Jesus nos ensina sobre Sua própria pessoa e nos conforta com a certeza de que nada ocorre sem um propósito definido. Tudo coopera para o bem daqueles que amam a Deus e são chamados segundo o Seu propósito.',
+    'A Assembleia Extraordinária para a eleição de oficiais não deve ser vista apenas como um processo administrativo. Trata-se de um ato de adoração, obediência e discernimento espiritual. Que o Senhor nos conduza na escolha de homens comprometidos com a sã doutrina e com o serviço cristão, para que Cristo seja glorificado em Sua Igreja.',
   ],
 };
