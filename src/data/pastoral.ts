@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'ASSEMBLEIA EXTRAORDINÁRIA PARA ELEIÇÃO',
+  title: 'CARTA À IGREJA DE ÉFESO',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'O governo da Igreja não é uma invenção humana, mas um princípio estabelecido nas Escrituras. A base fundamental da nossa eclesiologia é que Cristo é a cabeça da Igreja, exercendo autoridade suprema sobre o Seu povo por meio da Sua Palavra e do Seu Espírito. Toda autoridade eclesiástica está submetida à primazia do Senhor.',
-
-    'Em Atos 15, encontramos o modelo conciliar em funcionamento. Apóstolos e presbíteros reuniram-se para tratar de questões importantes relacionadas ao Reino de Deus. Esse exemplo fundamenta o sistema presbiteriano, no qual a liderança é exercida de forma colegiada por oficiais eleitos e capacitados pelo próprio Cristo.',
-
-    'Embora o Espírito Santo seja quem chama e vocaciona os oficiais, a igreja local possui a responsabilidade de reconhecer esses dons. A eleição é o momento em que a comunidade identifica aqueles que Deus levantou para exercer o cuidado espiritual e administrativo da igreja, seguindo os princípios estabelecidos nas Escrituras.',
-
-    'A Assembleia Extraordinária para a eleição de oficiais não deve ser vista apenas como um processo administrativo. Trata-se de um ato de adoração, obediência e discernimento espiritual. Que o Senhor nos conduza na escolha de homens comprometidos com a sã doutrina e com o serviço cristão, para que Cristo seja glorificado em Sua Igreja.',
+    'Jesus Cristo fala à igreja de Éfeso como o Senhor ressurreto que sustenta os Seus ministros e anda no meio dos candeeiros. A Igreja pertence a Cristo, foi comprada por Seu sangue e é governada por Sua Palavra. Cristo conhece a Sua Igreja: “Conheço as tuas obras” (Apocalipse 2:2). Ele vê o trabalho, a perseverança, o zelo pela sã doutrina e a resistência ao erro. Conhece também aquilo que os olhos humanos não percebem: a frieza espiritual, a rotina sem devoção e o abandono do primeiro amor. Por isso, não devemos avaliar a saúde da Igreja apenas por seus programas ou por sua aparência de sucesso.',
+    
+    'A pergunta é se continuamos amando o Senhor que nos amou primeiro. Nossas obras não compram o favor de Deus; são frutos da graça recebida em Cristo. A graça produz amor, fidelidade e obediência. Cristo se faz presente em Sua Igreja. Ele é aquele que “anda no meio dos sete candeeiros de ouro” (Apocalipse 2:1). O Senhor não observa Seu povo de longe; está no meio da congregação, acompanha seu caminho, recebe sua adoração e examina sua fidelidade. Essa presença consola a Igreja em suas lutas e a chama ao temor.',
+    
+    'Nenhum culto é vazio quando oferecido diante dEle; nenhuma lágrima é ignorada; nenhum serviço fiel é esquecido. Mesmo frágeis, somos sustentados pelo Cabeça da Igreja. Cristo cuida da Sua Igreja. Ele a repreende sem abandoná-la: “Tenho, porém, contra ti que abandonaste o teu primeiro amor” (Apocalipse 2:4). Sua disciplina é expressão de cuidado. Por isso, ordena: “Lembra-te, arrepende-te e volta” (Apocalipse 2:5). Cristo cuida da Igreja por meio da Palavra, chamando-a à reforma, à santidade e à centralidade do evangelho.',
+    
+    'O remédio para uma igreja fria não é confiar em métodos, mas retornar a Cristo, à Sua graça e às primeiras obras feitas por amor. Ouçamos o que o Espírito diz às igrejas. Oremos para que o Senhor preserve nossa doutrina, aqueça nosso amor e purifique nosso serviço. Aquele que conhece, está presente e cuida de Sua Igreja promete a árvore da vida aos que perseveram. Que permaneçamos fiéis ao nosso único Cabeça, para que, em tudo, Cristo tenha a primazia. Amém.',
   ],
 };
