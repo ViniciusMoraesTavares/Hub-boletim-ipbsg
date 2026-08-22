@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     {
       icon: FaWhatsapp,
       label: 'WhatsApp',
-      value: '(19) 91000-04906',
+      value: '(19) 91000-4906',
       link: 'https://wa.me/5519910004906'
     },
     {
