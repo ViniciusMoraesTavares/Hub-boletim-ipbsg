@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'FIÉIS EM QUALQUER CIRCUNSTÂNCIA: A IGREJA DE ESMIRNA',
+  title: 'SAIA DE CIMA DO MURO',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'A Igreja de Esmirna recebeu uma carta de ânimo e orientação em meio a muitas tribulações. Seus irmãos enfrentavam oposição, pobreza e perseguição, mas não estavam abandonados. O Senhor conhecia suas lutas e os chamava a permanecer fiéis. Para se ter uma ideia, Policarpo, pastor daquela igreja e discípulo de João, também foi provado.',
+    'A Igreja de Pérgamo vivia em uma cidade marcada pela idolatria e por fortes influências do pecado. Por isso, Jesus se apresenta como aquele que tem a espada afiada de dois gumes: a Palavra de Deus, que penetra profundamente, discerne o coração e faz uma separação precisa entre o que pertence ao Senhor e o que pertence ao mundo. A mensagem de Cristo continua atual: não é possível permanecer em cima do muro.',
     
-    'Diante da ordem para negar a Cristo, respondeu: “Por 86 anos eu o tenho servido, e ele jamais me causou mal; como poderia blasfemar contra o meu Rei e Salvador?”. Preferiu ser queimado a negar a Cristo. Sua resposta revela a força de uma fé que não depende das circunstâncias, mas conhece o valor daquele em quem confia.',
+    'Quem tenta servir a dois senhores acaba não desfrutando plenamente de nenhum deles. Assim também acontece quando alguém deseja estar na igreja, mas não quer abandonar as práticas que desagradam a Deus. Pérgamo foi elogiada por sua fé, mas alguns de seus membros estavam cedendo às ciladas do pecado. Esse é um perigo para todos nós. O diabo é astuto e começa com pequenas concessões: “não tem nada a ver”, “todo mundo faz”, “não existe outra opção”.',
     
-    'Jesus se apresenta como “o primeiro e o último”, o Deus soberano, acima de todos os reis e impérios. Ele também é aquele que esteve morto e tornou a viver. Por isso, tem as chaves da morte e do Hades e pode garantir aos seus que não sofrerão o dano da segunda morte. A primeira morte separa o corpo da alma; a segunda é a separação eterna de Deus. Mas Cristo, vencedor da morte, oferece aos seus a coroa da vida. A palavra do Senhor para nós continua sendo: não temas, sê fiel e persevera até o fim.',
+    'Aquilo que parece pequeno pode envolver o coração e afastar-nos lentamente do Senhor. Conhecer a verdade e declarar fé em Deus não basta; é preciso viver em obediência. Por isso, Jesus ordena: “Arrepende-te!”. Escolha hoje a quem você servirá. Abra mão de tudo o que o separa de Deus e permaneça fiel, mesmo quando for difícil. Aquele que perseverar receberá o maná escondido e a pedrinha branca, sinais da comunhão com Cristo.',
     
-    'Não devemos fixar os olhos apenas nas dificuldades do caminho, mas no Deus redentor que nos sustenta e na promessa que nos aguarda. Nada é tão valioso que justifique trair o Senhor ou abandonar seus caminhos. Quem permanece em Cristo pode até enfrentar sofrimento, mas jamais estará sozinho. A vitória pertence àqueles que lutam pela fé e não desistem, pois, ao final, receberão do próprio Senhor a coroa da vida.',
+    'Não fique dividido. A Palavra fará a separação, mas, para os que pertencem verdadeiramente ao Senhor, ela trará vida, consolo e a alegria de serem reconhecidos pelo Bom Pastor.',
   ],
 };
