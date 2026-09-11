@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'SAIA DE CIMA DO MURO',
+  title: 'NÃO DEIXE O AMOR ESFRIAR',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'A Igreja de Pérgamo vivia em uma cidade marcada pela idolatria e por fortes influências do pecado. Por isso, Jesus se apresenta como aquele que tem a espada afiada de dois gumes: a Palavra de Deus, que penetra profundamente, discerne o coração e faz uma separação precisa entre o que pertence ao Senhor e o que pertence ao mundo. A mensagem de Cristo continua atual: não é possível permanecer em cima do muro.',
+    'A Igreja de Tiatira recebeu de Jesus uma palavra de elogio e também uma séria advertência. O Senhor conhecia suas obras, seu amor, sua fé, seu serviço e sua perseverança. Reconhecia que suas últimas obras eram maiores do que as primeiras. Era uma comunidade que trabalhava, amava e permanecia firme. Entretanto, havia um grave problema: Tiatira tolerava Jezabel, uma mulher que, à semelhança da rainha do Antigo Testamento, influenciava os servos de Deus a se envolverem com a imoralidade e a idolatria.',
     
-    'Quem tenta servir a dois senhores acaba não desfrutando plenamente de nenhum deles. Assim também acontece quando alguém deseja estar na igreja, mas não quer abandonar as práticas que desagradam a Deus. Pérgamo foi elogiada por sua fé, mas alguns de seus membros estavam cedendo às ciladas do pecado. Esse é um perigo para todos nós. O diabo é astuto e começa com pequenas concessões: “não tem nada a ver”, “todo mundo faz”, “não existe outra opção”.',
+    'O perigo estava também em aceitar o pecado dentro da comunidade. A igreja não poderia permitir que aquilo que Deus condena fosse tratado como algo normal. Essa mensagem também fala conosco. Não basta ter amor, fé, serviço e perseverança; é preciso preservar a santidade. A tolerância pode parecer bondade, mas, quando deixa de chamar o erro pelo nome, torna-se cumplicidade. O pecado começa com uma concessão aparentemente pequena, mas, quando não é enfrentado, enfraquece a consciência e esfria o amor por Deus.',
     
-    'Aquilo que parece pequeno pode envolver o coração e afastar-nos lentamente do Senhor. Conhecer a verdade e declarar fé em Deus não basta; é preciso viver em obediência. Por isso, Jesus ordena: “Arrepende-te!”. Escolha hoje a quem você servirá. Abra mão de tudo o que o separa de Deus e permaneça fiel, mesmo quando for difícil. Aquele que perseverar receberá o maná escondido e a pedrinha branca, sinais da comunhão com Cristo.',
+    'Por isso, Jesus chama sua igreja ao arrependimento e orienta os que não haviam seguido aquele ensino: “Conservai o que tendes, até que eu venha”. Talvez não possamos mudar tudo ao redor, mas podemos permanecer fiéis. Cristo conhece nossas obras e recompensa os que perseveram. Aos que vencerem, ele promete autoridade e a estrela da manhã. Não abandone a verdade, não negocie sua fé e não deixe o amor esfriar.',
     
-    'Não fique dividido. A Palavra fará a separação, mas, para os que pertencem verdadeiramente ao Senhor, ela trará vida, consolo e a alegria de serem reconhecidos pelo Bom Pastor.',
+    'Permaneça firme até a volta do Senhor. Em meio a uma sociedade que tantas vezes normaliza aquilo que Deus condena, somos chamados a conservar a verdade, cultivar a santidade e perseverar na fé. Que nossas obras, nosso amor e nosso compromisso com Cristo não sejam apenas lembranças do passado, mas cresçam continuamente até o dia em que ele voltar.',
   ],
 };
