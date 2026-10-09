@@ -1,13 +1,13 @@
 export const pastoral = {
-  title: 'Quando a riqueza esconde a pobreza espiritual',
+  title: 'Ensinar é caminhar junto',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Em Apocalipse 3.14-22, Jesus envia uma mensagem à igreja de Laodiceia, uma cidade rica, orgulhosa e autossuficiente. Seus habitantes diziam: “Estou rico e abastado e não preciso de coisa alguma”. O problema é que essa mentalidade havia entrado na igreja. Eles se julgavam completos, mas Cristo os via pobres, cegos e nus espiritualmente. Laodiceia possuía lã negra, colírio e grandes riquezas, mas não conseguia enxergar sua verdadeira condição. A soberba havia produzido uma fé morna, sem compromisso e sem testemunho. Jesus afirma que preferia que fossem frios ou quentes, pois a mornidão lhe causava náuseas.',
-    
-    'O morno mistura-se com o mundo e com a igreja, sem assumir uma posição verdadeira diante de Deus. O perigo de se achar abastado é acomodar-se espiritualmente. A pessoa pensa que já sabe o suficiente, não aceita orientação, rejeita a correção e só ouve conselhos que confirmam suas opiniões. Também deixa de iluminar: não testemunha, não se importa com os necessitados e pouco se envolve com a missão de Deus. A autossuficiência faz o coração perder a compaixão. Contudo, a repreensão de Jesus revela sua graça.',
-    
-    'Ele aconselha aquela igreja a comprar dele ouro refinado, vestes brancas e colírio para os olhos. Somente Cristo pode devolver verdadeira riqueza, pureza e visão espiritual. Ele não desiste dos que estão mornos; chama-os ao arrependimento. A mensagem termina com uma bela promessa: “Eis que estou à porta e bato”. Jesus ainda chama, oferece comunhão e deseja entrar.',
-    
-    'Que abandonemos a soberba, reconheçamos nossa necessidade e permitamos que Cristo ocupe novamente o primeiro lugar. Melhor do que parecermos ricos diante das pessoas é sermos encontrados ricos na graça, na fé e na presença de Deus.',
+    'Provérbios 22.6 declara: “Ensina a criança no caminho em que deve andar, e, ainda quando for velho, não se desviará dele”. Esse versículo apresenta aos pais uma responsabilidade que não pode ser transferida: ensinar os filhos. A formação espiritual e moral das crianças não deve ser deixada apenas para a igreja ou para a escola. Deus confiou aos pais a missão de instruir sua casa. O texto diz: “Ensina a criança”.',
+
+    'Não devemos esperar que ela cresça para começar a ensinar, como se fosse muito nova para receber responsabilidades ou aprender valores. Desde cedo, precisa ser orientada, corrigida e conduzida. O amor também se revela quando os pais estabelecem limites, mostrando onde os filhos devem andar e de quais caminhos precisam se afastar. Entretanto, o provérbio não diz apenas “ensina o caminho”, mas “ensina no caminho”. Isso significa que os pais não devem simplesmente apontar uma direção de longe.',
+
+    'Eles precisam caminhar ao lado dos filhos. A instrução deve ser acompanhada pelo exemplo. Não adianta falar sobre oração se os filhos nunca veem os pais orando; ensinar honestidade e agir de modo desonesto; exigir respeito sem tratar os filhos com respeito. As crianças aprendem muito mais com aquilo que observam do que com aquilo que apenas escutam. Por isso, cada atitude dos pais comunica uma mensagem. O lar deve ser o primeiro lugar onde os filhos conhecem o amor, a verdade, a disciplina e a fé. Ensinar uma criança exige paciência, presença e perseverança. Nem sempre os resultados aparecem imediatamente, mas a semente plantada com fidelidade produzirá frutos no tempo certo.',
+
+    'Que Deus ajude os pais a não apenas indicar o caminho, mas a caminhar nele junto com seus filhos, conduzindo-os pelo ensino e pelo exemplo aos pés de Cristo.',
   ],
 };
