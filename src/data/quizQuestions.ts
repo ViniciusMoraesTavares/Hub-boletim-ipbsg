@@ -1,171 +1,171 @@
 import { QuizQuestion } from '../types';
 
 export const quizQuestions: QuizQuestion[] = [
-  // ---- Fáceis ----
-  {
-    id: 1,
-    question: 'Qual passagem bíblica fundamenta a pastoral “Quando a fé reconhece sua fraqueza”?',
-    options: [
-      'Mateus 14.22-33',
-      'Marcos 9.14-29',
-      'Lucas 15.11-32',
-      'João 11.1-16',
-      'Salmos 46.1-11',
-    ],
-    correctAnswer: 1,
-    explanation: 'A pastoral é baseada em Marcos 9.14-29, passagem que apresenta a aflição de um pai, a incapacidade dos discípulos de libertar seu filho e a intervenção poderosa de Jesus.',
-    difficulty: 'easy',
-  },
-  {
-    id: 2,
-    question: 'O que o pai do menino pediu a Jesus?',
-    options: [
-      'Que ensinasse seus discípulos a discutir com os escribas',
-      'Que levasse seu filho para o monte da transfiguração',
-      'Que lhe concedesse riquezas para cuidar da família',
-      'Que tivesse compaixão dele e ajudasse seu filho',
-      'Que o tornasse um dos discípulos mais importantes',
-    ],
-    correctAnswer: 3,
-    explanation: 'O pai se aproximou de Jesus em aflição e pediu compaixão. Sua atitude demonstra que, mesmo diante da dor e da incerteza, ele buscou ajuda naquele que tinha poder para agir.',
-    difficulty: 'easy',
-  },
-  {
-    id: 3,
-    question: 'Qual foi a declaração do pai que expressa sua fé e, ao mesmo tempo, reconhece sua fraqueza?',
-    options: [
-      '“Eu creio! Ajuda-me na minha falta de fé!”',
-      '“Minha fé é suficiente para todas as coisas!”',
-      '“Não preciso de ajuda, pois já compreendi tudo!”',
-      '“Seus discípulos certamente resolverão o problema!”',
-      '“Eu conheço o poder de Deus e não tenho dúvidas!”',
-    ],
-    correctAnswer: 0,
-    explanation: 'O pai declarou: “Eu creio! Ajuda-me na minha falta de fé!” (Marcos 9.24). Ele não escondeu sua fragilidade, mas a apresentou honestamente diante de Jesus.',
-    difficulty: 'easy',
-  },
+// ---- Fáceis ----
+{
+id: 1,
+question: 'Qual passagem bíblica fundamenta a pastoral “Conhecidos por Deus e conduzidos por sua presença”?',
+options: [
+'Salmos 23.1-6',
+'Provérbios 3.1-12',
+'Salmos 139',
+'Isaías 40.1-11',
+'Romanos 8.28-39',
+],
+correctAnswer: 2,
+explanation: 'A pastoral é fundamentada no Salmo 139, que apresenta Deus como onipotente, onisciente, onipresente e pessoal, aquele que conhece profundamente seus filhos e os conduz em seu caminho.',
+difficulty: 'easy',
+},
+{
+id: 2,
+question: 'O que significa afirmar que Deus é onipotente?',
+options: [
+'Que ele possui todo o poder e que nada é difícil ou impossível para ele',
+'Que ele conhece apenas aquilo que os seres humanos revelam',
+'Que ele está presente somente nos lugares de adoração',
+'Que ele depende da capacidade humana para realizar seus propósitos',
+'Que ele aprende com os acontecimentos ao longo do tempo',
+],
+correctAnswer: 0,
+explanation: 'A onipotência significa que Deus possui todo o poder. Conforme a pastoral, nossas dificuldades e lutas são pequenas diante de seu poder.',
+difficulty: 'easy',
+},
+{
+id: 3,
+question: 'Segundo a pastoral, o que significa dizer que Deus é onipresente?',
+options: [
+'Que Deus conhece apenas o passado e o presente',
+'Que Deus está limitado aos céus e não acompanha os seres humanos',
+'Que Deus se manifesta somente em experiências espirituais extraordinárias',
+'Que Deus está presente em todos os lugares e nenhum lugar pode nos ocultar dele',
+'Que Deus está presente apenas na vida daqueles que nunca enfrentam dificuldades',
+],
+correctAnswer: 3,
+explanation: 'A onipresença significa que Deus está presente em todos os lugares. Como ensina o Salmo 139, não existe lugar tão alto, profundo ou escuro que possa nos ocultar de sua presença.',
+difficulty: 'easy',
+},
 
   // ---- Médias ----
-  {
-    id: 4,
-    question: 'O que aconteceu quando os discípulos tentaram libertar o menino antes da chegada de Jesus?',
-    options: [
-      'Conseguiram libertá-lo, mas o menino voltou a sofrer depois',
-      'O pai recusou a ajuda dos discípulos antes que tentassem',
-      'Os escribas impediram que os discípulos se aproximassem do menino',
-      'Jesus apareceu imediatamente e não permitiu que eles tentassem',
-      'Eles não conseguiram libertar o menino',
-    ],
-    correctAnswer: 4,
-    explanation: 'Os discípulos não conseguiram expulsar o espírito. A situação revelou que a experiência anterior com o poder de Deus não deveria levá-los a confiar na própria capacidade, mas a permanecer dependentes do Senhor.',
-    difficulty: 'medium',
-  },
-  {
-    id: 5,
-    question: 'Segundo a pastoral, qual erro os cristãos podem cometer ao confiar excessivamente na própria capacidade?',
-    options: [
-      'Estudar as Escrituras para compreender melhor a vontade de Deus',
-      'Tentar realizar a obra de Deus apenas com técnica, conhecimento ou força humana',
-      'Pedir ajuda a outros cristãos em momentos difíceis',
-      'Reconhecer que precisam crescer na fé',
-      'Orar antes de tomar decisões importantes',
-    ],
-    correctAnswer: 1,
-    explanation: 'A pastoral alerta que podemos confiar excessivamente em nossas experiências, técnicas e conhecimentos. A obra de Deus exige que reconheçamos nossa limitação e dependamos continuamente dele.',
-    difficulty: 'medium',
-  },
-  {
-    id: 6,
-    question: 'O que Jesus ensinou aos discípulos quando perguntaram por que não conseguiram expulsar o espírito?',
-    options: [
-      'Que precisavam abandonar o ministério e voltar para suas casas',
-      'Que o pai deveria ter demonstrado uma fé perfeita',
-      'Que aquela situação só poderia ser vencida por meio da oração',
-      'Que os escribas possuíam mais conhecimento espiritual do que eles',
-      'Que deveriam esperar até que o menino se recuperasse naturalmente',
-    ],
-    correctAnswer: 2,
-    explanation: 'Em Marcos 9.29, Jesus ensina sobre a necessidade da oração. A pastoral destaca que orar não é repetir uma fórmula, mas reconhecer nossa dependência do poder de Deus.',
-    difficulty: 'medium',
-  },
-  {
-    id: 7,
-    question: 'Segundo a pastoral, o que significa reconhecer a própria falta de fé?',
-    options: [
-      'Concluir que Deus não pode agir em situações difíceis',
-      'Abandonar a vida cristã até que todas as dúvidas desapareçam',
-      'Esconder as dúvidas para não demonstrar fraqueza aos outros',
-      'Confessar honestamente as próprias limitações e pedir que Deus fortaleça a fé',
-      'Esperar alcançar uma fé perfeita antes de se aproximar de Cristo',
-    ],
-    correctAnswer: 3,
-    explanation: 'O pai não fingiu possuir uma fé sem fraquezas. Ele levou sua necessidade a Jesus. A pastoral ensina que podemos confessar nossas dúvidas e pedir ao Senhor que fortaleça nossa fé.',
-    difficulty: 'medium',
-  },
+{
+id: 4,
+question: 'O que significa afirmar que Deus é onisciente?',
+options: [
+'Que ele possui poder, mas precisa descobrir nossas necessidades por meio de nossas orações',
+'Que ele conhece todas as coisas, sabe quais são nossas necessidades e o que é melhor para nós',
+'Que ele conhece apenas as intenções que decidimos revelar a outras pessoas',
+'Que ele determina nossas escolhas porque desconhece o que faremos no futuro',
+'Que ele observa nossas ações, mas não conhece nossos pensamentos e sentimentos',
+],
+correctAnswer: 1,
+explanation: 'A onisciência significa que Deus conhece todas as coisas. A pastoral destaca que ele nos conhece melhor do que nós mesmos e sabe quais são nossas verdadeiras necessidades.',
+difficulty: 'medium',
+},
+{
+id: 5,
+question: 'Por que a pastoral afirma que Deus não é apenas uma força espiritual?',
+options: [
+'Porque Deus depende de forças espirituais superiores para agir no mundo',
+'Porque sua presença pode ser percebida somente por meio de fenômenos sobrenaturais',
+'Porque ele se relaciona apenas com pessoas que possuem conhecimento teológico',
+'Porque seus atributos se limitam ao poder e ao conhecimento',
+'Porque Deus é pessoal e se relaciona, manifestando misericórdia, bondade, amor, santidade, justiça e retidão',
+],
+correctAnswer: 4,
+explanation: 'A pastoral apresenta Deus como pessoal, não como uma força impessoal. Ele se relaciona e manifesta atributos como misericórdia, bondade, amor, santidade, justiça e retidão.',
+difficulty: 'medium',
+},
+{
+id: 6,
+question: 'Segundo a pastoral, qual é uma das consequências de sabermos que Deus nos conhece profundamente?',
+options: [
+'Podemos esconder dele nossos pensamentos mais íntimos quando necessário',
+'Não precisamos mais examinar nossas atitudes, pois Deus já conhece nosso coração',
+'Podemos confiar em seu cuidado e pedir que ele sonde nosso coração e nos conduza à santidade',
+'Devemos evitar orar sobre nossas fraquezas, porque Deus já conhece todas elas',
+'Precisamos conquistar o conhecimento de Deus por meio de nossas boas obras',
+],
+correctAnswer: 2,
+explanation: 'Sabendo que Deus nos conhece profundamente, podemos descansar em seu cuidado e pedir que ele sonde nosso coração, transforme nossos pensamentos e nos conduza no caminho da santidade.',
+difficulty: 'medium',
+},
+{
+id: 7,
+question: 'De acordo com a pastoral, como Deus conduz seus filhos?',
+options: [
+'Transformando seus pensamentos e seu coração e direcionando-os para longe do caminho mau',
+'Retirando deles toda responsabilidade pelas próprias escolhas',
+'Garantindo que nunca enfrentarão problemas ou situações difíceis',
+'Conduzindo-os apenas por meio de sinais extraordinários e visíveis',
+'Impedindo que precisem crescer espiritualmente ao longo da vida',
+],
+correctAnswer: 0,
+explanation: 'A pastoral ensina que Deus tem prazer em conduzir os seus, transformando seus pensamentos e seu coração e direcionando-os para longe do caminho mau.',
+difficulty: 'medium',
+},
 
   // ---- Difíceis ----
-  {
-    id: 8,
-    question: 'Qual é o principal contraste apresentado pela pastoral entre a capacidade humana e o poder de Cristo?',
-    options: [
-      'A experiência religiosa torna desnecessária a dependência de Deus',
-      'O conhecimento bíblico é suficiente para superar qualquer dificuldade sem oração',
-      'A fé verdadeira elimina imediatamente todas as dúvidas e limitações humanas',
-      'A oração funciona como uma técnica que garante o resultado desejado',
-      'A insuficiência humana nos chama a depender de Cristo, cujo poder não está limitado pela nossa capacidade',
-    ],
-    correctAnswer: 4,
-    explanation: 'A pastoral contrasta a limitação humana com o poder de Cristo. A confiança cristã não repousa em nossa competência ou em uma fé supostamente perfeita, mas no Senhor a quem recorremos em nossas fraquezas.',
-    difficulty: 'hard',
-  },
-  {
-    id: 9,
-    question: 'Qual interpretação melhor expressa o significado da oração nessa pastoral?',
-    options: [
-      'A oração é uma forma de convencer Deus a realizar tudo o que desejamos',
-      'A oração é uma expressão de dependência de Deus, e não uma fórmula para controlar os resultados',
-      'A oração só é necessária quando todas as capacidades humanas já foram esgotadas',
-      'A oração serve principalmente para demonstrar aos outros a força da nossa fé',
-      'A oração garante que os problemas terminarão imediatamente',
-    ],
-    correctAnswer: 1,
-    explanation: 'A pastoral afirma que orar não é repetir uma fórmula, mas reconhecer que dependemos do poder de Deus. A oração nos aproxima de Cristo sem transformar Deus em alguém obrigado a cumprir nossas expectativas.',
-    difficulty: 'hard',
-  },
-  {
-    id: 10,
-    question: 'Qual afirmação melhor resume a mensagem central da pastoral “Quando a fé reconhece sua fraqueza”?',
-    options: [
-      'O cristão precisa desenvolver autoconfiança suficiente para superar qualquer dificuldade',
-      'As dúvidas demonstram necessariamente que uma pessoa não possui fé verdadeira',
-      'A vida cristã exige reconhecer nossas limitações, buscar a Cristo em oração e confiar em sua graça mesmo em meio às lutas',
-      'A experiência espiritual do passado garante que não enfrentaremos novos fracassos',
-      'A oração é eficaz somente quando conseguimos eliminar todas as nossas dúvidas',
-    ],
-    correctAnswer: 2,
-    explanation: 'A pastoral nos ensina a reconhecer nossas limitações sem esconder nossas fraquezas de Cristo. Em vez de confiar exclusivamente em nós mesmos, devemos buscar o Senhor em oração, pedindo que fortaleça nossa fé e confiando em sua graça.',
-    difficulty: 'hard',
-  },
+{
+id: 8,
+question: 'Como os atributos da onipotência, onisciência e onipresença se complementam na mensagem da pastoral?',
+options: [
+'Deus possui poder para agir, mas precisa da sabedoria humana para determinar o que é melhor',
+'Deus conhece nossas necessidades, mas nem sempre tem poder para nos ajudar',
+'Deus está presente em todos os lugares, mas não conhece os pensamentos de seus filhos',
+'Deus tem poder para agir, conhece perfeitamente nossas necessidades e está continuamente presente conosco',
+'Deus manifesta esses atributos somente quando seus filhos demonstram uma fé sem dúvidas',
+],
+correctAnswer: 3,
+explanation: 'A pastoral apresenta esses atributos de forma complementar: Deus pode agir por seu poder, conhece perfeitamente nossas necessidades por sua onisciência e está presente conosco por sua onipresença. Por isso, podemos confiar em seu cuidado.',
+difficulty: 'hard',
+},
+{
+id: 9,
+question: 'Qual é a relação entre o conhecimento que Deus tem de nós e o chamado à santidade apresentado na pastoral?',
+options: [
+'Como Deus já conhece nossas fraquezas, não precisamos buscar transformação espiritual',
+'O conhecimento de Deus nos leva a pedir que ele sonde nosso coração, transforme nossa vida e nos conduza para longe do caminho mau',
+'A santidade depende exclusivamente da força de vontade humana, sem a ação de Deus',
+'Deus conhece nossas atitudes exteriores, mas deixa nossos pensamentos e desejos sem direção',
+'O chamado à santidade significa que devemos alcançar a perfeição antes de nos aproximarmos de Deus',
+],
+correctAnswer: 1,
+explanation: 'A pastoral relaciona o conhecimento profundo que Deus tem de nós com a oração para que ele sonde nosso coração e nos conduza à santidade. Reconhecer que somos conhecidos por Deus deve nos levar à transformação, não à acomodação.',
+difficulty: 'hard',
+},
+{
+id: 10,
+question: 'Qual afirmação melhor resume a mensagem central da pastoral “Conhecidos por Deus e conduzidos por sua presença”?',
+options: [
+'A segurança cristã depende principalmente da capacidade humana de compreender todos os planos de Deus',
+'A presença de Deus é importante apenas nos momentos de sofrimento intenso',
+'Deus conhece todas as coisas, mas deixa seus filhos sem direção para que encontrem sozinhos o caminho da santidade',
+'A onipotência de Deus garante que todos os nossos desejos serão realizados da maneira que esperamos',
+'Podemos descansar no poder de Deus, confiar em sua sabedoria, desfrutar de sua presença e pedir que ele nos conduza no caminho da santidade',
+],
+correctAnswer: 4,
+explanation: 'A pastoral nos convida a descansar no poder de Deus, confiar em sua sabedoria, desfrutar de sua presença constante e pedir que ele sonde nosso coração e nos conduza pessoalmente no caminho da santidade.',
+difficulty: 'hard',
+},
 ];
 
 const __distribution = [0, 0, 0, 0, 0];
 
 for (const q of quizQuestions) {
-  const idx = q.correctAnswer;
-  if (idx >= 0 && idx <= 4) __distribution[idx]++;
+const idx = q.correctAnswer;
+if (idx >= 0 && idx <= 4) __distribution[idx]++;
 }
 
 const __min = Math.min(...__distribution);
 const __max = Math.max(...__distribution);
 
 if (__distribution.some((c) => c === 0)) {
-  console.error(
-    'Quiz correctAnswer distribution missing one or more indices',
-    __distribution,
-  );
+console.error(
+'Quiz correctAnswer distribution missing one or more indices',
+__distribution,
+);
 } else if (__max - __min > 1) {
-  console.warn(
-    'Quiz correctAnswer distribution unbalanced',
-    __distribution,
-  );
+console.warn(
+'Quiz correctAnswer distribution unbalanced',
+__distribution,
+);
 }
