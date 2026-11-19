@@ -1,11 +1,17 @@
 export const pastoral = {
-  title: 'Casamento: uma aliança diante de Deus',
+  title: 'Quando a lei nos conduz a Cristo',
   author: 'Rev. Júlio Alexandre',
   paragraphs: [
-    'Em Marcos 10.1-12, alguns fariseus perguntam a Jesus se é lícito ao homem repudiar sua esposa. A pergunta não nasce de um desejo sincero de aprender, mas de uma tentativa de colocá-lo à prova. Jesus, porém, não se limita a discutir permissões; ele conduz a conversa de volta ao propósito original de Deus para o casamento. Ao citar Gênesis, Cristo lembra que Deus fez homem e mulher e estabeleceu entre eles uma união profunda: “serão os dois uma só carne”. O casamento não é apenas um contrato social ou uma relação que pode ser desfeita ao primeiro sinal de dificuldade.',
+    'Um homem se aproxima de Jesus perguntando o que deveria fazer para herdar a vida eterna. Ele era moralmente respeitado, possuía riquezas e afirmava guardar os mandamentos desde a juventude. Ainda assim, faltava-lhe uma coisa: confiava mais em sua própria obediência e em seus bens do que em Deus.',
 
-    'É uma aliança que envolve compromisso, fidelidade e entrega. Por isso, Jesus declara: “O que Deus ajuntou não o separe o homem”. Os fariseus mencionam a permissão dada por Moisés, mas Jesus explica que ela foi concedida por causa da dureza do coração humano. A permissão não representava o ideal de Deus; revelava a realidade do pecado. Quando o coração se torna duro, perde a capacidade de ouvir, perdoar, servir e lutar pela restauração. Muitas rupturas começam quando o amor é substituído pelo egoísmo e o diálogo dá lugar à indiferença.',
+    'A pergunta daquele homem continua presente em muitos corações: “O que preciso fazer para ser salvo?”. Muitos imaginam que a vida eterna é uma recompensa para quem consegue ser suficientemente bom.',
 
-    'Essa palavra não deve ser usada para condenar pessoas feridas nem para ignorar situações de violência, abandono ou injustiça. Ela nos chama a honrar a aliança, tratar o cônjuge com dignidade e buscar ajuda pastoral quando o relacionamento está em crise. Onde houve pecado, é necessário arrependimento; onde houve feridas, cuidado; e onde for possível, a restauração deve ser buscada com verdade e responsabilidade. O casamento revela o compromisso de Deus com seu povo. Maridos e esposas são chamados a cultivar amor, diálogo, perdão e fidelidade. Que o Senhor amoleça os corações, cure as feridas e ensine cada casal a viver segundo sua vontade. E que a igreja seja lugar de ensino, acolhimento e cuidado para as famílias.',
+    'Jesus usa a lei para revelar o coração. O problema do homem não era apenas possuir riquezas, mas permitir que elas ocupassem o lugar de Deus. Sua moralidade externa não escondia seu verdadeiro amor. A lei funciona como um espelho: mostra o pecado, desmonta nossa autoconfiança e revela que não somos capazes de salvar a nós mesmos.',
+
+    'Diante disso, Jesus declara que, para os seres humanos, a salvação é impossível. O exemplo do camelo e do fundo de uma agulha destrói toda esperança de alcançar o Reino por esforço próprio. Mas aquilo que é impossível aos homens é possível para Deus.',
+
+    'Somente Cristo cumpriu perfeitamente a vontade do Pai. Ele foi verdadeiramente bom, obedeceu sem pecado e entregou sua vida para salvar pecadores. Por isso, nossa obediência não deve ser uma tentativa de comprar o amor de Deus, mas uma resposta agradecida ao amor que já recebemos em Cristo.',
+
+    'Em Cristo, recebemos o maior tesouro: o perdão, a vida eterna e a presença de Deus.',
   ],
 };
